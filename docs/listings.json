@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/members/person_she.html",
+      "/members/smolikfilip.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  }
+]

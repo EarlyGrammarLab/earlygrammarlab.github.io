@@ -1,0 +1,14 @@
+---
+title: "EAGLELab"
+description: "Early Acquisition of Grammar and LExicon"
+about:
+  template: trestles
+  image: logo.png
+  image-shape: rectangle
+---
+
+Early acquisition research group of the [Institute of Psychology, Czech Academy of Sciences](https://psu.cas.cz/en/).
+
+*This webpage is work-in-progress and will be updated in the future.*
+
+[More about our team](people.qmd)

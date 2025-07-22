@@ -1,0 +1,12 @@
+---
+title: "prof. PhDr. Filip Smolík, Ph.D., DSc."
+image: person_he.jpg
+categories: Researcher
+description: ""
+about:
+  template: trestles
+  image: person_he.jpg
+  image-shape: round
+---
+
+I am a member of EAGLELab.

@@ -1,0 +1,12 @@
+---
+title: "Placeholder B"
+image: person_she.jpg
+categories: Researcher
+description: ""
+about:
+  template: trestles
+  image: person_she.jpg
+  image-shape: round
+---
+
+I am a member of EAGLELab.

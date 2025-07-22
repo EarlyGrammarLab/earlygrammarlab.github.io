@@ -1,0 +1,16 @@
+---
+title: "Publications and presentations"
+listing: 
+  contents: 
+    - publications.yml
+  sort: "Year desc"
+  fields: ["Publication", "Year", ]
+  field-types:
+    Year: number
+  #   End: number
+  type: table
+  categories: true
+---
+
+Selected papers and presentations relevant to early acquisition of grammar and lexicon. 
+ 

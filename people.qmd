@@ -1,0 +1,11 @@
+---
+title: "People"
+listing: 
+  contents: members
+  type: grid
+  image-height: 250px
+  grid-item-border: false
+  categories: true
+  fields: [image, title, ]
+  grid-item-align: center
+---

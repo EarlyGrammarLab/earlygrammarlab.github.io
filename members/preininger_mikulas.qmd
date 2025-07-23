@@ -1,0 +1,12 @@
+---
+title: "Mgr. Mikuláš Preininger, Ph.D."
+image: preininger_mikulas.jpg
+categories: Researcher
+description: ""
+about:
+  template: trestles
+  image: preininger_mikulas.jpg
+  image-shape: round
+---
+
+I am a member of EAGLELab.

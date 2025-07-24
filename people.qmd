@@ -2,10 +2,9 @@
 title: "People"
 listing: 
   contents: members
-  type: grid
+  type: default
   image-height: 250px
-  grid-item-border: false
-  categories: true
-  fields: [image, title, ]
+  categories: false
+  fields: [image, title, description, ]
   grid-item-align: center
 ---

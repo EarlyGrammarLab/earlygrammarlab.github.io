@@ -1,18 +1,17 @@
 [
   {
-    "listing": "/publications.html",
+    "listing": "/projects.html",
     "items": []
   },
   {
     "listing": "/people.html",
     "items": [
       "/members/preininger_mikulas.html",
-      "/members/person_she.html",
       "/members/smolikfilip.html"
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/publications.html",
     "items": []
   }
 ]

@@ -1,0 +1,6 @@
+---
+title: "What we do"
+format: html
+---
+
+Our lab focuses on exploring early grammar and lexicon acquisition.

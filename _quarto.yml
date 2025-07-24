@@ -7,6 +7,7 @@ website:
   navbar:
     logo: "logo.png"
     left:
+      - whatwedo.qmd
       - people.qmd
       - projects.qmd
       - publications.qmd

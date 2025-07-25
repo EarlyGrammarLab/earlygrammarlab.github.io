@@ -1,11 +1,11 @@
 ---
 title: "prof. PhDr. Filip Smolík, Ph.D., DSc."
-image: person_he.jpg
+image: smolik_filip.jpg
 categories: Researcher
 description: "Researcher at EAGLELab"
 about:
   template: trestles
-  image: person_he.jpg
+  image: smolik_filip.jpg
   image-shape: round
 ---
 

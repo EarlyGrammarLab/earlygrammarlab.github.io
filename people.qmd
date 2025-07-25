@@ -7,4 +7,5 @@ listing:
   categories: false
   fields: [image, title, description, ]
   grid-item-align: center
+  sort: false
 ---

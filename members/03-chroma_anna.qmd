@@ -1,0 +1,12 @@
+---
+title: "Mgr. Anna Chromá"
+image: chroma_anna.jpg
+categories: Researcher
+description: "Researcher at EAGLELab"
+about:
+  template: trestles
+  image: chroma_anna.jpg
+  image-shape: round
+---
+
+I am a member of EAGLELab.

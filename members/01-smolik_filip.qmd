@@ -14,14 +14,14 @@ I am the leader of EAGLeLab, and hold a position of a senior research scientist 
 
 In my research, with mebers of EAGLeLab or other collaborators, I study how the knowledge of language works in children and adults, and how children learn language. I am particularly interested in children's knowledge of grammar, such as how children learn what nouns and verbs are, how these word types fit in the sentences, and how they can be inflected. The knowledge and development of language are related to many other topics in cognitive science, psychology or linguistic, so I get to contribute to projects addressing a number of research questions. In addition to the fundamental science questions, I also work on tools for assessment and evaluation of language and cognitive skills in children.
 
-I got my PhD. from the [Child Langauge Doctoral Program](https://cldp.ku.edu/) at the University of Kansas, with [Mabel Rice](https://cldp.ku.edu/people/mabel-l-rice) as my supervisor.
+I got my PhD from the [Child Langauge Doctoral Program](https://cldp.ku.edu/) at the University of Kansas, with [Mabel Rice](https://cldp.ku.edu/people/mabel-l-rice) as my supervisor.
 
 ### Selected publications
 (for complete list, see [ORCID](https://orcid.org/0000-0003-4160-6124), [Google Scholar](https://scholar.google.cz/citations?user=GuE00EoAAAAJ&hl=en) or [ResearchGate](https://www.researchgate.net/profile/Filip-Smolik/research).
 
 Gerwien, J., Filip, M., & Smolík, F. (2024). Noun imageability and the processing of sensory-based information. *Quarterly Journal of Experimental Psychology*, *77*(10), 2137-2150.
 
-Smolik, F., & Chromá, A. (2023). About me, you and her: Personal pronouns are developmentally preceded by mental state language. *Journal of Child Language*, 50(3), 537-554.
+Smolik, F., & Chromá, A. (2023). About me, you and her: Personal pronouns are developmentally preceded by mental state language. *Journal of Child Language*, *50*(3), 537-554.
 
 Smolík, F., & Bláhová, V. (2022). Here come the nouns: Czech two-year-olds use verb number endings to predict sentence subjects. *Cognition*, *219*, 104964.
 

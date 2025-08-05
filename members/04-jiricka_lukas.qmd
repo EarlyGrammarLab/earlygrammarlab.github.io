@@ -1,10 +1,9 @@
 ---
 title: "Mgr. Lukáš Jiřička"
 categories: Researcher
-description: "Researcher at EAGLELab"
+description: "Doctoral student"
 about:
   template: trestles
   image-shape: round
 ---
 
-I am a member of EAGLELab.

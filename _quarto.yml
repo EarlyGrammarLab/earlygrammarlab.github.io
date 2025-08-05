@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "EAGLELab"
+  title: "EAGLeLab"
   navbar:
     logo: "logo.png"
     left:

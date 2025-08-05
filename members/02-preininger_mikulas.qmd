@@ -2,11 +2,11 @@
 title: "Mgr. Mikuláš Preininger, Ph.D."
 image: preininger_mikulas.jpg
 categories: Researcher
-description: "Researcher at EAGLELab"
+description: "Postdoctoral researcher"
 about:
   template: trestles
   image: preininger_mikulas.jpg
   image-shape: round
 ---
 
-I am a member of EAGLELab.
+

@@ -1,0 +1,23 @@
+---
+title: "Mgr. Klára Matiasovitsová"
+image: matiasovitsova_klara.jpg
+categories: Researcher
+description: "Doctoral student"
+about:
+  template: trestles
+  image: matiasovitsova_klara.jpg
+  image-shape: round
+---
+I am a PhD student and a junior researcher at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/), and a junior researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).
+
+My main focus is the language development of preschool and early school-age children with language difficulties (developmental language disorder), particularly their acquisition of grammar in comparison to typically developing children. In my PhD thesis, I examine the relation between sentence imitation ability, working memory, and language skills in these children.
+
+I also co-lead the development of the child language corpora [*CoCzeFLA*](https://coczefla.ff.cuni.cz/), where I am primarily responsible for coordinating their morphological annotation.
+
+### Selected publications:
+
+Matiasovitsová, K., Čechová, P., Sláma, J., Homolková, K., & Smolík, F. (2024). Mean Length of Utterance in Czech Toddlers: Validity Estimates and Comparison of Words, Morphemes, and Syllables. *Journal of Speech, Language, and Hearing Research*, *67*(3), 837-852.
+
+Šimík, R., Matiasovitsová, K., & Smolík, F. (2024). Wh-word acquisition in Czech: Exploring the growing trees hypothesis. *Language Acquisition*, 1–29.
+
+Smolík, F., & Matiasovitsová, K. (2021). Sentence imitation with masked morphemes in Czech: Memory, morpheme frequency, and morphological richness. *Journal of Speech, Language, and Hearing Research*, *64*(1), 105-120.

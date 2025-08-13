@@ -1,5 +1,5 @@
 ---
-title: "prof. PhDr. Filip Smolík, Ph.D., DSc."
+title: "Filip Smolík"
 image: smolik_filip.jpg
 categories: Researcher
 description: "Senior researcher, head of EAGLeLab"
@@ -28,4 +28,3 @@ Smolík, F., & Matiasovitsová, K. (2021). Sentence imitation with masked morphe
 Smolík, F., & Bláhová, V. (2019). Czech 23-month-olds use gender agreement to anticipate upcoming nouns. *Journal of Experimental Child Psychology*, *178*, 251-265.
 
 Smolík, F. (2015). Word order and information structure in Czech 3-and 4-year-olds’ comprehension. *First language*, *35*(3), 237-253.
-

@@ -1,5 +1,5 @@
 ---
-title: "Mgr. Klára Matiasovitsová"
+title: "Klára Matiasovitsová"
 image: matiasovitsova_klara.jpg
 categories: Researcher
 description: "Doctoral student"

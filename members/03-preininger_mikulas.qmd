@@ -1,5 +1,5 @@
 ---
-title: "Mgr. Mikuláš Preininger, Ph.D."
+title: "Mikuláš Preininger"
 image: preininger_mikulas.jpg
 categories: Researcher
 description: "Postdoctoral researcher"

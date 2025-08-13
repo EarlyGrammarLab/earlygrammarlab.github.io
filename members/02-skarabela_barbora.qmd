@@ -1,9 +1,7 @@
 ---
-title: "Mgr. Lukáš Jiřička"
+title: "Barbora Skarabela"
 categories: Researcher
-description: "Doctoral student"
 about:
   template: trestles
   image-shape: round
 ---
-

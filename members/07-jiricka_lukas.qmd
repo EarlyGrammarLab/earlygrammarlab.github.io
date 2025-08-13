@@ -1,0 +1,8 @@
+---
+title: "Lukáš Jiřička"
+categories: Researcher
+description: "Doctoral student"
+about:
+  template: trestles
+  image-shape: round
+---

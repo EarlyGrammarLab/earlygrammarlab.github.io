@@ -1,5 +1,5 @@
 ---
-title: "Mgr. Anna Chromá"
+title: "Anna Chromá"
 image: chroma_anna.jpg
 categories: Researcher
 description: "Doctoral student"

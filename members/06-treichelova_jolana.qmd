@@ -1,5 +1,5 @@
 ---
-title: "Mgr. Jolana Treichelová"
+title: "Jolana Treichelová"
 image: treichelova_jolana.jpg
 categories: Researcher
 description: "Doctoral student"

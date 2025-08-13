@@ -11,6 +11,4 @@ listing:
   type: table
   categories: true
 ---
-
-Selected papers and presentations relevant to early acquisition of grammar and lexicon. 
- 
+Listed below are our papers and presentations, as well as select other works by the team's members relevant to the topics we cover.

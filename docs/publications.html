@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-Publication','listing-Year',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-Year-sort'] }],
+      valueNames: ['listing-Title','listing-Year',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-Year-sort'] }],
       
-      searchColumns: ["listing-Publication","listing-Year","listing-categories"],
+      searchColumns: ["listing-Title","listing-Year","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -180,7 +180,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHVibGljYXRpb24=">Publication <span class="quarto-category-count">(8)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -215,8 +215,8 @@ window.Quarto = {
      <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
-         <option value="listing-Publication" data-direction="asc">
-          Publication
+         <option value="listing-Title" data-direction="asc">
+          Title
         </option>
          <option value="listing-Year-sort" data-direction="asc">
           Year (Low to High)
@@ -235,7 +235,7 @@ window.Quarto = {
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-Publication" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Publication</a>
+<a class="sort" data-sort="listing-Title" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
 <a class="sort" data-sort="listing-Year-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
@@ -243,65 +243,81 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="" data-listing-year-sort="2025">
+<tr data-index="0" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2025">
 <td>
-<span class="listing-Publication">Chromá, A., Sláma, J., Matiasovitsová, K., &amp; Treichelová, J. (2025). A morphologically tagged longitudinal corpus of spoken Czech child-adult interactions. <em>Language Resources and Evaluation</em>, <em>59</em>(1), 413-436.</span>
+<span class="listing-Title">Chromá, A., Sláma, J., Matiasovitsová, K., &amp; Treichelová, J. (2025). A morphologically tagged longitudinal corpus of spoken Czech child-adult interactions. <em>Language Resources and Evaluation</em>, <em>59</em>(1), 413-436.</span>
 </td>
 <td>
 <span class="listing-Year">2025</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="" data-listing-year-sort="2024">
+<tr data-index="1" data-categories="UHJlc2VudGF0aW9u" data-listing-year-sort="2025">
 <td>
-<span class="listing-Publication">Gerwien, J., Filip, M., &amp; Smolík, F. (2024). Noun imageability and the processing of sensory-based information.&nbsp;<em>Quarterly Journal of Experimental Psychology</em>,&nbsp;<em>77</em>(10), 2137-2150.</span>
+<span class="listing-Title">Chromá, A., &amp; Treichelová, J. (2025, June 19–20). <em>Word order and case marking in early comprehension</em>. LangInLife ISAB conference, Brno, Czech Republic.</span>
+</td>
+<td>
+<span class="listing-Year">2025</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="UHJlc2VudGF0aW9u" data-listing-year-sort="2025">
+<td>
+<span class="listing-Title">Chromá, A. (2025, June 30). <em>The curiously long journey of the German case marking</em>. Department of Developmental Psychology, Eberhard Karls Universität Tübingen.</span>
+</td>
+<td>
+<span class="listing-Year">2025</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2024">
+<td>
+<span class="listing-Title">Gerwien, J., Filip, M., &amp; Smolík, F. (2024). Noun imageability and the processing of sensory-based information.&nbsp;<em>Quarterly Journal of Experimental Psychology</em>,&nbsp;<em>77</em>(10), 2137-2150.</span>
 </td>
 <td>
 <span class="listing-Year">2024</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="" data-listing-year-sort="2024">
+<tr data-index="4" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2024">
 <td>
-<span class="listing-Publication">Matiasovitsová, K., Čechová, P., Sláma, J., Homolková, K., &amp; Smolík, F. (2024). Mean Length of Utterance in Czech Toddlers: Validity Estimates and Comparison of Words, Morphemes, and Syllables. Journal of Speech, Language, and Hearing Research, <em>67</em>(3), 837-852.</span>
+<span class="listing-Title">Matiasovitsová, K., Čechová, P., Sláma, J., Homolková, K., &amp; Smolík, F. (2024). Mean Length of Utterance in Czech Toddlers: Validity Estimates and Comparison of Words, Morphemes, and Syllables. Journal of Speech, Language, and Hearing Research, <em>67</em>(3), 837-852.</span>
 </td>
 <td>
 <span class="listing-Year">2024</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="" data-listing-year-sort="2023">
+<tr data-index="5" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2023">
 <td>
-<span class="listing-Publication">Smolik, F., &amp; Chromá, A. (2023). About me, you and her: Personal pronouns are developmentally preceded by mental state language. <em>Journal of Child Language</em>, <em>50</em>(3), 537-554.</span>
+<span class="listing-Title">Smolik, F., &amp; Chromá, A. (2023). About me, you and her: Personal pronouns are developmentally preceded by mental state language. <em>Journal of Child Language</em>, <em>50</em>(3), 537-554.</span>
 </td>
 <td>
 <span class="listing-Year">2023</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="" data-listing-year-sort="2022">
+<tr data-index="6" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2022">
 <td>
-<span class="listing-Publication">Smolík, F., &amp; Bláhová, V. (2022). Here come the nouns: Czech two-year-olds use verb number endings to predict sentence subjects.&nbsp;<em>Cognition</em>,&nbsp;<em>219</em>, 104964.</span>
+<span class="listing-Title">Smolík, F., &amp; Bláhová, V. (2022). Here come the nouns: Czech two-year-olds use verb number endings to predict sentence subjects.&nbsp;<em>Cognition</em>,&nbsp;<em>219</em>, 104964.</span>
 </td>
 <td>
 <span class="listing-Year">2022</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="" data-listing-year-sort="2021">
+<tr data-index="7" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2021">
 <td>
-<span class="listing-Publication">Smolík, F., &amp; Matiasovitsová, K. (2021). Sentence imitation with masked morphemes in Czech: Memory, morpheme frequency, and morphological richness.&nbsp;<em>Journal of Speech, Language, and Hearing Research</em>, <em>64</em>(1), 105-120.</span>
+<span class="listing-Title">Smolík, F., &amp; Matiasovitsová, K. (2021). Sentence imitation with masked morphemes in Czech: Memory, morpheme frequency, and morphological richness.&nbsp;<em>Journal of Speech, Language, and Hearing Research</em>, <em>64</em>(1), 105-120.</span>
 </td>
 <td>
 <span class="listing-Year">2021</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="" data-listing-year-sort="2019">
+<tr data-index="8" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2019">
 <td>
-<span class="listing-Publication">Smolík, F., &amp; Bláhová, V. (2019). Czech 23-month-olds use gender agreement to anticipate upcoming nouns.&nbsp;<em>Journal of Experimental Child Psychology</em>,&nbsp;<em>178</em>, 251-265.</span>
+<span class="listing-Title">Smolík, F., &amp; Bláhová, V. (2019). Czech 23-month-olds use gender agreement to anticipate upcoming nouns.&nbsp;<em>Journal of Experimental Child Psychology</em>,&nbsp;<em>178</em>, 251-265.</span>
 </td>
 <td>
 <span class="listing-Year">2019</span>
 </td>
 </tr>
-<tr data-index="7" data-categories="" data-listing-year-sort="2015">
+<tr data-index="9" data-categories="UHVibGljYXRpb24=" data-listing-year-sort="2015">
 <td>
-<span class="listing-Publication">Smolík, F. (2015). Word order and information structure in Czech 3-and 4-year-olds’ comprehension.&nbsp;<em>First language</em>,&nbsp;<em>35</em>(3), 237-253.</span>
+<span class="listing-Title">Smolík, F. (2015). Word order and information structure in Czech 3-and 4-year-olds’ comprehension.&nbsp;<em>First language</em>,&nbsp;<em>35</em>(3), 237-253.</span>
 </td>
 <td>
 <span class="listing-Year">2015</span>

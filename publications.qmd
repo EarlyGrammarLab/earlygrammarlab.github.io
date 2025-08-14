@@ -7,7 +7,6 @@ listing:
   fields: ["Title", "File", "Year", ]
   field-types:
     Year: number
-  #   End: number
   type: table
   categories: true
 ---

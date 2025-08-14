@@ -3,10 +3,11 @@ title: "Projects"
 listing: 
   contents: 
     - projects.yml
+  sort: "End desc"
+  fields: ["Title", "Notes", "Start", "End", "ID", "Funder", ]
   field-types:
     Start: number
     End: number
   type: table
 ---
-
 Selected projects we have worked on.

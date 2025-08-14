@@ -1,11 +1,11 @@
 ---
 title: "Anna Chromá"
-image: chroma_anna.jpg
+image: /images/chroma_anna.jpg
 categories: Researcher
 description: "Doctoral student"
 about:
   template: trestles
-  image: chroma_anna.jpg
+  image: /images/chroma_anna.jpg
   image-shape: round
 ---
 I am a PhD student and a junior researcher at Faculty of Arts, Charles University, and a junior researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).

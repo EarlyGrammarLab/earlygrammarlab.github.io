@@ -1,12 +1,20 @@
 ---
 title: "Mikuláš Preininger"
-image: preininger_mikulas.jpg
+image: /images/preininger_mikulas.jpg
 categories: Researcher
 description: "Postdoctoral researcher"
 about:
   template: trestles
-  image: preininger_mikulas.jpg
+  image: /images/preininger_mikulas.jpg
   image-shape: round
 ---
+I am a postdoc at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/), and a junior researcher at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/).
 
+My research in recent years has focused on questions at the intersection of gender and language — for example, when speakers acquire gender as a grammatical category and how it shapes cognitive biases later in life. I have also conducted multiple studies quantifying various properties of words, providing resources that facilitate research on lexical processing and representation in diverse populations.
+
+### Selected publications
+
+Brand, J., Preininger, M., Kříž, A., & Ceháková, M. (2025). Feminine fox, not so feminine box: constraints on linguistic relativity effects for grammatical and conceptual gender. *Language and Cognition*, *17*, e34.
+
+Preininger, M., Brand, J., & Kříž, A. (2022). Quantifying the socio-semantic representations of words. In J. Culbertson, A. Perfors, H. Rabagliati & V. Ramenzoni (Eds.), *Proceedings of the 44th Annual Conference of the Cognitive Science Society* (pp 2994-3000). Cognitive Science Society.
 

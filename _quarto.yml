@@ -5,7 +5,7 @@ project:
 website:
   title: "EAGLeLab"
   navbar:
-    logo: "logo.png"
+    logo: "/images/logo.png"
     left:
       - whatwedo.qmd
       - people.qmd

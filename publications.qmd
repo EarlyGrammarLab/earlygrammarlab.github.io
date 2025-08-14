@@ -4,7 +4,7 @@ listing:
   contents: 
     - publications.yml
   sort: "Year desc"
-  fields: ["Title", "Year", ]
+  fields: ["Title", "File", "Year", ]
   field-types:
     Year: number
   #   End: number

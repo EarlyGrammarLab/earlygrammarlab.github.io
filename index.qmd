@@ -3,7 +3,7 @@ title: "EAGLeLab"
 description: "Early Acquisition of Grammar and LExicon"
 about:
   template: trestles
-  image: logo.png
+  image: /images/logo.png
   image-shape: rectangle
 ---
 

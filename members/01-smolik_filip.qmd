@@ -1,11 +1,11 @@
 ---
 title: "Filip Smolík"
-image: smolik_filip.jpg
+image: /images/smolik_filip.jpg
 categories: Researcher
 description: "Senior researcher, head of EAGLeLab"
 about:
   template: trestles
-  image: smolik_filip.jpg
+  image: /images/smolik_filip.jpg
   image-shape: round
 ---
 I am the leader of EAGLeLab, and hold a position of a senior research scientist at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/). I also do some teaching at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/) in Prague.

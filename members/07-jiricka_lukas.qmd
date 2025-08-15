@@ -1,9 +1,11 @@
 ---
 title: "Lukáš Jiřička"
+image: /images/jiricka_lukas.jpg
 categories: Researcher
 description: "Doctoral student"
 about:
   template: trestles
+  image: /images/jiricka_lukas.jpg
   image-shape: round
 ---
 I am a PhD student at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/), and a junior researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).

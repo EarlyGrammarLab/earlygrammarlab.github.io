@@ -1,6 +1,7 @@
 ---
 title: "Barbora Skarabela"
 categories: Researcher
+description: "Senior researcher"
 about:
   template: trestles
   image-shape: round

@@ -2,8 +2,6 @@
 title: "What we do"
 format: html
 ---
-Our research examines various questions about how people learn and use language, especially in early childhood. We are interested in mental mechanisms that make it possible for people to learn, remember and use words and their meanings, rules and regularities of sentences and word forms, and mutual relations between different parts of the language system.
-
 #### When and how children learn grammatical categories
 Words belong to part-of-speech categories such as noun and verbs, sentences have subjects, predicates, objects and other elements. We are interested in how children uncover these categories, at what age they can use them to comprehend sentences, what kind of information they use to learn about them.
 

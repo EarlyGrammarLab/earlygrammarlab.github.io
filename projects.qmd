@@ -10,4 +10,4 @@ listing:
     End: number
   type: table
 ---
-Selected projects we have worked on.
+A list of the projects EAGLeLab is or was involved in.

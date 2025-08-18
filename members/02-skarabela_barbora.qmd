@@ -1,8 +1,34 @@
 ---
 title: "Barbora Skarabela"
+image: /images/skarabela_barbora.jpg
 categories: Researcher
 description: "Senior researcher"
 about:
   template: trestles
+  image: /images/skarabela_barbora.jpg
   image-shape: round
 ---
+I joined the EAGLeLab at the [*Institute of Psychology of the Czech Academy of Sciences*](https://psu.cas.cz/en/) as Senior Researcher in January 2025. My research centres on child language development, with a particular focus on how children acquire grammar and learn to navigate discourse, using a combination of experimental and corpus-based methods.
+
+I began my academic journey in the Czech Republic, earning a Bachelor’s degree at Palacký University in Olomouc. I continued with my postgraduate studies in the United States, completing a PhD in Applied Linguistics at Boston University. My doctoral research explored language development in children acquiring Inuktitut, an indigenous language spoken in Northern Canada.
+
+I joined the University of Edinburgh as a Teaching Fellow in Language Acquisition and have since held various research posts. I’m a founding member of the Wee Science developmental lab in the School of Philosophy, Psychology and Language Sciences and the Edinburgh Laboratory for Language Development (ELfLanD). Since 2019, I’ve held the post of Knowledge Exchange and Impact Officer working with the Lothian Birth Cohorts, a longitudinal research study of brain and cognitive ageing. I lead the group’s public engagement activities and support the team in developing and delivering research impact. I also edit the Disconnected Mind Newsletter, a quarterly publication that shares updates and insights from the Lothian Birth Cohorts.
+
+### Selected publications
+
+Soderstrom, M., Rocha-Hidalgo, J., Muñoz, L.E., et al. (2025). Testing the relationship between preferences for infant-directed speech and vocabulary development: A multi-lab study. *Journal of Child Language*, *52*(5), 984-1009. https://doi.org/10.1017/S0305000924000254
+
+Skarabela, B. (2025, June 19-20). *Czeching the grammar: How do children learn complex morphosyntax?* LangInLife ISAB conference, Brno, Czech Republic.
+
+Skarabela, B., Cuthbert, N., Rees A., Rohde, H., & Rabagliati, H. (2023). Learning dimensions of meaning: Children's acquisition of "but". *Cognitive Psychology*, *147*, 101597-101597. 
+https://doi.org/10.1016/j.cogpsych.2023.101597
+
+Ota, M., Davies-Jenkins, N., & Skarabela, B. (2018). Why choo-choo is better than train: The role of register- specific words in early vocabulary development. *Cognitive Science*, *42*(6), 1974-1999. https://doi.org/10.1111/cogs.12628
+
+Skarabela, B. & Ota, M. (2017). Two-year-olds but not younger children comprehend "it" in ambiguous contexts: Evidence from preferential looking. *Journal of Child Language*, *44*(1), 255-268. https://doi.org/10.1017/S0305000915000781
+
+Skarabela, B., Allen, S. E. M. & Scott-Phillips, T. C. (2013). Joint attention helps explain why children omit new referents. *Journal of Pragmatics*, *56*, 5-14. https://doi.org/10.1016/j.pragma.2012.08.003
+
+Allen, S. E. M., Skarabela, B., & Hughes, M. (2008). Using corpora to examine discourse effects in syntax. In H. Behrens (Ed.), *Trends in Language Aquisition Research: Corpora in Language Acquisition Research: History, methods, perspectives* (TiLAR; Vol. 6, pp. 99-137). John Benjamins Publishing Company. https://doi.org/10.1075/tilar.6
+
+Skarabela, B. (2007). Signs of early social cognition in children's syntax: The case of joint attention in argument realization in child Inuktitut. *Lingua*, *117*(11), 1837-1857. https://doi.org/10.1016/j.lingua.2006.11.010

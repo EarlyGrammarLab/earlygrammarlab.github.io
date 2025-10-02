@@ -1,0 +1,21 @@
+---
+title: "Martina Abbondanza"
+image: /images/abbondanza_martina.jpg
+categories: Researcher
+description: "Postdoctoral researcher"
+about:
+  template: trestles
+  image: /images/abbondanza_martina.jpg
+  image-shape: round
+---
+I am a postdoctoral researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/). I hold a degree in Formal Linguistics from the University of Padua (Italy) and a PhD in Psychology, Linguistics, and Cognitive Neuroscience from the University of Milano-Bicocca (Italy).
+
+My current research investigates how social and semantic knowledge influence morphosyntactic gender agreement. More broadly, I am interested in understanding how extra-linguistic knowledge interacts with strict morphosyntactic rules and in identifying the linguistic features that guide syntactic agreement processes.
+
+### Selected publications
+
+Abbondanza, M., Galimberti, V., Reverberi, C., Durante, F., Foppolo, F. (2025). Neutralizing role nouns: Investigating the efficacy of ə in written and oral Italian. *Frontiers in Communication*, *9*. <https://doi.org/10.3389/fcomm.2024.1530778>
+
+Abbondanza, M., Amenta, S., Rinaldi, L., & Marelli, M. (2024). Time is -ending: Sub-lexical information activates the horizontal Mental Time Line in word processing. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *51*(1), 119-132. <https://doi.org/10.1037/xlm0001331>
+
+Abbondanza, M., Rinaldi, L., Foppolo, F., & Marelli, M. (2021). The mental representation of nonnumerical quantifiers: The Spatial-Linguistic Association of Response Codes (SLARC) effect. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *47*(12), 2021–2028. <https://doi.org/10.1037/xlm0001037>

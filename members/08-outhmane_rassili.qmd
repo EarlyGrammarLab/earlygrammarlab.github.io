@@ -1,0 +1,10 @@
+---
+title: "Outhmane Rassili"
+categories: Researcher
+description: "Postdoctoral researcher"
+about:
+  template: trestles
+  image-shape: round
+---
+
+

@@ -11,6 +11,7 @@ website:
       - people.qmd
       - projects.qmd
       - publications.qmd
+      - forparticipants.qmd
 
 format:
   html:

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d9589ad4e98504035195c70aa99e1e7d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,7 +141,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">EAGLeLab</span>
@@ -214,7 +216,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1755164170154" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="quarto-post image-right" data-index="0" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1758883562877" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
 <div class="thumbnail"><a href="./members/01-smolik_filip.html" class="no-external">
 
 <img loading="lazy" src="./images/smolik_filip.jpg" class="thumbnail-image" style="height: 250px;">
@@ -233,7 +235,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1759397427916" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="quarto-post image-right" data-index="1" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1758883562878" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
 <div class="thumbnail"><a href="./members/02-skarabela_barbora.html" class="no-external">
 
 <img loading="lazy" src="./images/skarabela_barbora.jpg" class="thumbnail-image" style="height: 250px;">
@@ -252,7 +254,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1755164170156" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="quarto-post image-right" data-index="2" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1758883562878" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <div class="thumbnail"><a href="./members/03-preininger_mikulas.html" class="no-external">
 
 <img loading="lazy" src="./images/preininger_mikulas.jpg" class="thumbnail-image" style="height: 250px;">
@@ -271,7 +273,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1755164170156" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="quarto-post image-right" data-index="3" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1775066689565" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
 <div class="thumbnail"><a href="./members/04-chroma_anna.html" class="no-external">
 
 <img loading="lazy" src="./images/chroma_anna.jpg" class="thumbnail-image" style="height: 250px;">
@@ -282,7 +284,7 @@ window.Quarto = {
 <a href="./members/04-chroma_anna.html" class="no-external">Anna Chromá</a>
 </h3>
 <div class="delink listing-description"><a href="./members/04-chroma_anna.html" class="no-external">
-<p>Doctoral student</p>
+<p>Postdoctoral researcher</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -290,7 +292,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1755164170156" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
+<div class="quarto-post image-right" data-index="4" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1775066687942" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
 <div class="thumbnail"><a href="./members/05-matiasovitsova_klara.html" class="no-external">
 
 <img loading="lazy" src="./images/matiasovitsova_klara.jpg" class="thumbnail-image" style="height: 250px;">
@@ -301,7 +303,7 @@ window.Quarto = {
 <a href="./members/05-matiasovitsova_klara.html" class="no-external">Klára Matiasovitsová</a>
 </h3>
 <div class="delink listing-description"><a href="./members/05-matiasovitsova_klara.html" class="no-external">
-<p>Doctoral student</p>
+<p>Postdoctoral researcher</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -309,7 +311,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1755168735217" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+<div class="quarto-post image-right" data-index="5" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1758883562878" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
 <div class="thumbnail"><a href="./members/06-treichelova_jolana.html" class="no-external">
 
 <img loading="lazy" src="./images/treichelova_jolana.jpg" class="thumbnail-image" style="height: 250px;">
@@ -328,7 +330,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1759398646837" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-right" data-index="6" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1775066623364" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="thumbnail"><a href="./members/07-abbondanza_martina.html" class="no-external">
 
 <img loading="lazy" src="./images/abbondanza_martina.jpg" class="thumbnail-image" style="height: 250px;">
@@ -347,7 +349,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1759493779133" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
+<div class="quarto-post image-right" data-index="7" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1775066623364" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
 <div class="thumbnail"><a href="./members/08-outhmane_rassili.html" class="no-external">
 
 <img loading="lazy" src="./images/rassili_outhmane.jpg" class="thumbnail-image" style="height: 250px;">
@@ -366,7 +368,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1759397427953" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
+<div class="quarto-post image-right" data-index="8" data-categories="UmVzZWFyY2hlcg==" data-listing-file-modified-sort="1775066623364" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
 <div class="thumbnail"><a href="./members/09-jiricka_lukas.html" class="no-external">
 
 <img loading="lazy" src="./images/jiricka_lukas.jpg" class="thumbnail-image" style="height: 250px;">
@@ -439,13 +441,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

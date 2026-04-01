@@ -2,7 +2,7 @@
 title: "Anna Chromá"
 image: /images/chroma_anna.jpg
 categories: Researcher
-description: "Doctoral student"
+description: "Postdoctoral researcher"
 about:
   template: trestles
   image: /images/chroma_anna.jpg

@@ -2,7 +2,7 @@
 title: "Klára Matiasovitsová"
 image: /images/matiasovitsova_klara.jpg
 categories: Researcher
-description: "Doctoral student"
+description: "Postdoctoral researcher"
 about:
   template: trestles
   image: /images/matiasovitsova_klara.jpg

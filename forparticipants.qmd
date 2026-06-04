@@ -2,8 +2,18 @@
 title: "For participants"
 format: html
 ---
+#### 2026
+
+Prediktivní využití jmenného rodu u českých dětí
+
+[Information](/pdf/informace_prediktivni_vyuziti_rodu_deti.pdf){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Download information about the study"}
+
+Prediktivní využití čísla u českých dětí
+
+[Information](/pdf/informace_prediktivni_vyuziti_cisla_deti.pdf){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Download information about the study"}
+
 #### 2025
 
 Na stopě významu: jak děti využívají gramatiku k předvídání děje
 
-[Information](/pdf/Informace o studii pro rodiče.pdf){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Download information about the study"}
+[Information](/pdf/informace_na_stope_vyznamu.pdf){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Download information about the study"}

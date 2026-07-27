@@ -1,40 +1,40 @@
 labphotos:
   images:
-    - src: /images/galleries/labphoto/gal_01.jpg
-    - src: /images/galleries/labphoto/gal_02.jpg
-    - src: /images/galleries/labphoto/gal_03.jpg
-    - src: /images/galleries/labphoto/gal_04.jpg
-    - src: /images/galleries/labphoto/gal_11.jpg
-    - src: /images/galleries/labphoto/gal_05.jpg
-    #- src: /images/galleries/labphoto/gal_07.jpg
-    #- src: /images/galleries/labphoto/gal_08.jpg
-    - src: /images/galleries/labphoto/gal_09.jpg
-    - src: /images/galleries/labphoto/gal_10.jpg
-    - src: /images/galleries/labphoto/gal_06.jpg
-    - src: /images/galleries/labphoto/gal_12.jpg
-    #- src: /images/galleries/labphoto/gal_13.jpg
+    - src: /images/galleries/labphoto/gal_01.webp
+    - src: /images/galleries/labphoto/gal_02.webp
+    - src: /images/galleries/labphoto/gal_03.webp
+    - src: /images/galleries/labphoto/gal_04.webp
+    - src: /images/galleries/labphoto/gal_11.webp
+    - src: /images/galleries/labphoto/gal_05.webp
+    #- src: /images/galleries/labphoto/gal_07.webp
+    #- src: /images/galleries/labphoto/gal_08.webp
+    - src: /images/galleries/labphoto/gal_09.webp
+    - src: /images/galleries/labphoto/gal_10.webp
+    - src: /images/galleries/labphoto/gal_06.webp
+    - src: /images/galleries/labphoto/gal_12.webp
+    #- src: /images/galleries/labphoto/gal_13.webp
   height: 300px
 
 testingphotos:
   images:
-    - src: /images/galleries/testingphoto/gal_testphotos (1).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (20).jpg
-    #- src: /images/galleries/testingphoto/gal_testphotos (2).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (3).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (4).jpg
-    #- src: /images/galleries/testingphoto/gal_testphotos (5).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (6).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (7).jpg
-    #- src: /images/galleries/testingphoto/gal_testphotos (8).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (9).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (10).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (11).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (12).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (13).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (14).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (15).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (16).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (17).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (18).jpg
-    - src: /images/galleries/testingphoto/gal_testphotos (19).jpg
+    - src: /images/galleries/testingphoto/gal_testphotos (1).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (20).webp
+    #- src: /images/galleries/testingphoto/gal_testphotos (2).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (3).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (4).webp
+    #- src: /images/galleries/testingphoto/gal_testphotos (5).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (6).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (7).webp
+    #- src: /images/galleries/testingphoto/gal_testphotos (8).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (9).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (10).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (11).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (12).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (13).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (14).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (15).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (16).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (17).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (18).webp
+    - src: /images/galleries/testingphoto/gal_testphotos (19).webp
   height: 300px

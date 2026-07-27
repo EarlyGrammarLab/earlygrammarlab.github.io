@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{% assign lang = page.lang | default: 'en' %}
+{% assign labels = site.data.labels[lang] %}
+
+
+<div class="container pt-6 pt-md-10 pb-2">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">{{page.title}}</h1>
+                {{content}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container page-content">
+  <!-- Category filter buttons -->
+  <div class="category-filters mb-3">
+    <button class="filter-btn active" data-category=""> {{ labels.categories.all }} <span class="badge">({{ site.publications.size }}</span>)</button>
+    <button class="filter-btn" data-category="publication"> {{ labels.categories.publication }} <span class="badge">({{ site.publications | where: "type", "publication" | size }})</span></button>
+    <button class="filter-btn" data-category="presentation"> {{ labels.categories.presentation }} <span class="badge">({{ site.publications | where: "type", "presentation" | size }})</span></button>
+  </div>
+  
+  <!-- Search and sort controls -->
+  <div class="filter-controls">
+    <input type="text" class="search-input" placeholder="{{ labels.filter_label }}">
+    <select id="year-sort" class="sort-dropdown">
+      <option value="newest">{{ labels.year_label }} ↓</option>
+      <option value="oldest">{{ labels.year_label }} ↑</option>
+      <option value="alpha">{{ labels.title_label }} ↑</option>
+    </select>
+  </div>
+  
+  <!-- Publication table -->
+  <table id="publications-table" class="table table-striped mt-4">
+    <thead>
+      <tr>
+        <th>{{ labels.title_label }}</th>
+        <th>{{ labels.type_label }}</th>
+        <th>{{ labels.year_label }}</th>
+        <th>{{ labels.file_label }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
+      {% for pub in sorted_pubs %}
+      <tr data-type="{{ pub.type }}" data-year="{{ pub.year }}">
+        <td class="listing-Title">
+          {{ pub.authors }} 
+          ({{ pub.year }}{% if pub.days %}, {{ pub.days }}{% endif %}).
+          {% if pub.conference %}<em>{% endif %}{{ pub.title }}{% if pub.conference %}</em> {{ pub.conference }}. {% endif %}
+          {% if pub.journal %}<em>{{ pub.journal }}</em>{% endif %}{% if pub.volume %}, <em>{{ pub.volume }}</em>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}.{% endif %}
+        </td>
+        {% assign base_type = pub.type %}
+        <td class="listing-Type">{{ labels.categories[base_type] }}</td>
+        <td class="listing-Year">{{ pub.year }}</td>
+        <td class="listing-File">
+          {% if pub.file and pub.file != "" and pub.file != "Not available" %}
+            <a href="{{ pub.file | relative_url }}">{{ labels.link }}</a>
+          {% else %}&nbsp;{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+</div>
+
+<script src="{{ '/assets/js/publications-filter.js' | relative_url }}"></script>

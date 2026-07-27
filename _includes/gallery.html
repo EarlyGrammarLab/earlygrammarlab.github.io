@@ -1,0 +1,16 @@
+{% assign gallery = site.data.galleries[include.gallery] %}
+
+{% if gallery %}
+<div class="horizontal-gallery"
+     id="gallery-{{ include.gallery }}"
+     data-gallery="{{ include.gallery }}">
+  {% for img in gallery.images %}
+  <img src="{{ img.src }}"
+       alt="{{ img.alt }}"
+       class="zoomable"
+       style="height: {{ gallery.height | default: '300px' }}" />
+  {% endfor %}
+</div>
+{% else %}
+<p style="color: red;">Gallery "{{ include.gallery }}" not found in _data/galleries.yml</p>
+{% endif %}

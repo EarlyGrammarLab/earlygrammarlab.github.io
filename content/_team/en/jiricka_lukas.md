@@ -1,0 +1,17 @@
+---
+title: "Lukáš Jiřička"
+image: "/images/team/jiricka_lukas.jpg"
+jobtitle: "Doctoral student"
+promoted: true
+weight: 4
+layout: bio
+lang: en
+---
+
+*morphological complexity, word form processing and representation*
+
+I am a PhD student at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/), and a junior researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).
+
+I currently focus on the issue of inflectional entropy, as I try to shed light on the way a paradigm's complexity affects the production, acquisition and processing of the inflected forms which belong to it. My aim is to contribute to the wider discussion about the nature of the mental lexicon and the roles morphological rules and memory play in its arrangement. My other interests include diachrony and phenomena related to grammaticalisation and categorisation.
+
+Besides that, I provide technical support at EAGLeLab and maintain the team's website.

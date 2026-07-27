@@ -1,0 +1,57 @@
+en:
+  main:
+    - name: "For participants"
+      url: "/en/experiments/"
+      weight: 2
+    - name: "People"
+      url: "/en/people/"
+      weight: 3
+    - name: "Publications"
+      url: "/en/publications/"
+      weight: 4
+    - name: "About"
+      url: "/en/about/"
+      weight: 5
+    - name: "Contact"
+      url: "/en/contact/"
+      weight: 6
+    - name: "Acknowledgments"
+      url: "/en/acknowledgments/"
+      weight: 7
+
+  footer:
+    - name: "Home"
+      url: "/en/"
+      weight: 1
+    - name: "Contact"
+      url: "/en/contact/"
+      weight: 2
+
+cs:
+  main:
+    - name: "Pro účastníky"
+      url: "/cs/experiments/"
+      weight: 2
+    - name: "Lidé"
+      url: "/cs/people/"
+      weight: 3
+    - name: "Publikace"
+      url: "/cs/publications/"
+      weight: 4
+    - name: "O nás"
+      url: "/cs/about/"
+      weight: 5
+    - name: "Kontakt"
+      url: "/cs/contact/"
+      weight: 6
+    - name: "Projekty"
+      url: "/cs/acknowledgments/"
+      weight: 7
+
+  footer:
+    - name: "Domů"
+      url: "/cs/"
+      weight: 1
+    - name: "Kontakt"
+      url: "/cs/contact/"
+      weight: 2

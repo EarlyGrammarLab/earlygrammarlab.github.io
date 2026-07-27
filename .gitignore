@@ -1,6 +1,22 @@
-.Rproj.user
-.Rhistory
-/.quarto/
+# NPM
+node_modules
+npm-debug.log
 
-**/*.quarto_ipynb
-.positai
+# Jekyll
+_site
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+**/Gemfile.lock
+
+# Temporary files
+tmp
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+.idea

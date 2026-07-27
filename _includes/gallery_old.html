@@ -1,0 +1,273 @@
+<div class="horizontal-gallery">
+  <img src="/images/labfoto/gal_01.jpg" alt="Description 1" class="zoomable" />
+  <img src="/images/labfoto/gal_02.jpg" alt="Description 2" class="zoomable" />
+  <img src="/images/labfoto/gal_03.jpg" alt="Description 3" class="zoomable" />
+  <img src="/images/labfoto/gal_04.jpg" alt="Description 3" class="zoomable" />
+  <img src="/images/labfoto/gal_05.jpg" alt="Description 3" class="zoomable" />
+  <img src="/images/labfoto/gal_06.jpg" alt="Description 3" class="zoomable" />
+  <img src="/images/labfoto/gal_07.jpg" alt="Description 3" class="zoomable" />
+</div>
+
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <span class="nav-btn nav-prev">&#10094;</span>
+  <img class="modal-content" id="modalImage">
+  <span class="nav-btn nav-next">&#10095;</span>
+  <div id="caption"></div>
+</div>
+
+<style>
+  .horizontal-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    white-space: nowrap;
+	cursor: pointer;
+  }
+  
+  .horizontal-gallery::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .horizontal-gallery::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+   .horizontal-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .horizontal-gallery img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+	transition: transform 0.3s ease;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 85vh;
+    margin-top: 5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  }
+
+  .modal-content.zoom {
+    animation: zoom 0.3s;
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Navigation buttons */
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    padding: 10px 20px;
+    z-index: 1001;
+  }
+
+  .nav-btn:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .nav-prev {
+    left: 0;
+  }
+
+  .nav-next {
+    right: 0;
+  }
+
+  /* Responsive adjustments */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+// Get the modal
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+const captionText = document.getElementById("caption");
+const closeBtn = document.getElementsByClassName("close")[0];
+const prevBtn = document.querySelector('.nav-prev');
+const nextBtn = document.querySelector('.nav-next');
+
+// Get all zoomable images
+const zoomableImages = document.querySelectorAll('.zoomable');
+let currentIndex = 0;
+
+// Function to show image at a given index
+function showImage(index) {
+  currentIndex = index;
+  modalImg.src = zoomableImages[currentIndex].src;
+  captionText.innerHTML = zoomableImages[currentIndex].alt;
+  // Re-trigger zoom animation
+  modalImg.classList.remove('zoom');
+  void modalImg.offsetWidth; // Force reflow
+  modalImg.classList.add('zoom');
+}
+
+// Function to show next image
+function showNext() {
+  currentIndex = (currentIndex + 1) % zoomableImages.length;
+  showImage(currentIndex);
+}
+
+// Function to show previous image
+function showPrev() {
+  currentIndex = (currentIndex - 1 + zoomableImages.length) % zoomableImages.length;
+  showImage(currentIndex);
+}
+
+// Add click event to each image
+zoomableImages.forEach((img, index) => {
+  img.addEventListener('click', function() {
+    modal.style.display = "block";
+    showImage(index);
+  });
+});
+
+// Navigation button clicks
+prevBtn.onclick = function(e) {
+  e.stopPropagation();
+  showPrev();
+};
+
+nextBtn.onclick = function(e) {
+  e.stopPropagation();
+  showNext();
+};
+
+// Close the modal when clicking on the close button
+closeBtn.onclick = function() { 
+  modal.style.display = "none";
+  modalImg.classList.remove('zoom');
+}
+
+// Close the modal when clicking outside the image
+modal.onclick = function(event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+    modalImg.classList.remove('zoom');
+  }
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (modal.style.display === "block") {
+    if (event.key === "Escape") {
+      modal.style.display = "none";
+      modalImg.classList.remove('zoom');
+    } else if (event.key === "ArrowLeft") {
+      showPrev();
+    } else if (event.key === "ArrowRight") {
+      showNext();
+    }
+  }
+});
+
+// Horizontal scroll with mouse wheel
+const gallery = document.querySelector('.horizontal-gallery');
+
+let targetScroll = gallery.scrollLeft;
+let animFrameId = null;
+let lastSetScroll = gallery.scrollLeft;
+
+gallery.addEventListener('wheel', function(event) {
+  event.preventDefault(); // prevents default vertical scrolling
+  targetScroll += event.deltaY;
+  targetScroll = Math.max(0, Math.min(targetScroll, gallery.scrollWidth - gallery.clientWidth));
+  if (animFrameId === null) {
+    animFrameId = requestAnimationFrame(animateScroll);
+  }
+}, { passive: false });
+  
+function animateScroll() {
+  // Detect if something else moved the scrollbar (drag, touch, etc.)
+  // by comparing actual position to what we last set
+  if (Math.abs(gallery.scrollLeft - lastSetScroll) > 1) {
+    // External scroll detected — resync target
+    targetScroll = gallery.scrollLeft;
+  }
+
+  const diff = targetScroll - gallery.scrollLeft;
+  if (Math.abs(diff) < 0.5) {
+    lastSetScroll = gallery.scrollLeft;
+    animFrameId = null;
+    return;
+  }
+
+  gallery.scrollLeft += diff * 0.15;
+  lastSetScroll = gallery.scrollLeft;
+  animFrameId = requestAnimationFrame(animateScroll);
+}
+
+// Sync target when animation is idle (scrollbar drag, touch, etc.)
+gallery.addEventListener('scroll', function() {
+  if (animFrameId === null) {
+    targetScroll = gallery.scrollLeft;
+    lastSetScroll = gallery.scrollLeft;
+  }
+});
+</script>

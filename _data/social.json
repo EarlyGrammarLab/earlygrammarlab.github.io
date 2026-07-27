@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/EarlyGrammarLab/",
+    "image": "images/social/github.svg"
+  },
+  {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/people/EAGLeLab/61582226131628/",
+      "image": "images/social/facebook.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:EAGLeLab@praha.psu.cas.cz",
+      "image": "images/social/email.svg"
+  },
+  {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/earlygrammarlab/",
+      "image": "images/social/instagram.svg"
+  },
+  {
+      "name": "AVČR",
+      "link": "https://www.avcr.cz/",
+      "image": "images/social/avcr.svg"
+  },
+  {
+      "name": "PSÚ",
+      "link": "https://psu.cas.cz/",
+      "image": "images/social/psu.svg"
+  }
+]

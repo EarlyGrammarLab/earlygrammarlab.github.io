@@ -49,35 +49,38 @@ bodyClass: "page-services"
     </div>
     {% endfor %}
 
-    <h1> {{ labels.registration_archive }} </h1>
     {% assign service_list = site.services | where: "lang", lang | where: "active", false | sort: "date" | reverse %}
-    {% for service in service_list %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
 
-          {% if service.group_development or experiment.group_age %}
-          <div class="badge-row">
-            {% if service.group_development %}
-              <span class="badge badge--dev">{{ service.group_development }}</span>
+    {% if service_list.size > 0 %}
+      <h1> {{ labels.registration_archive }} </h1>
+      {% for service in service_list %}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h2>
+
+            {% if service.group_development or experiment.group_age %}
+            <div class="pill-row">
+              {% if service.group_development %}
+                <span class="pill pill--dev">{{ service.group_development }}</span>
+              {% endif %}
+              {% if service.group_age %}
+                <span class="pill pill--age">{{ service.group_age }}</span>
+              {% endif %}
+            </div>
             {% endif %}
-            {% if service.group_age %}
-              <span class="badge badge--age">{{ service.group_age }}</span>
-            {% endif %}
+
+            <!-- this is used if excerpts should be included in the view
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 150 }}</p>
+            -->
+
           </div>
-          {% endif %}
-
-          <!-- this is used if excerpts should be included in the view
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 150 }}</p>
-          -->
-
         </div>
       </div>
-    </div>
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
 

@@ -1,21 +1,20 @@
 ---
-title: "Prediktivní zpracování gramatické shody rodu"
+title: "Predictive processing of grammatical gender agreement"
 weight: 2
 year: 2026
 date: 2026-01-02
-group_development: "typický vývoj"
-group_age: "23–25 měsíců"
+group_development: "typical development"
+group_age: "23–25 months"
 active: true
-lang: cs
+lang: en
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}
 
 <a href="#" class="btn-custom btn-disabled">
-  {{ labels.bookings_unavailable }}
+  {{ labels.bookings_cz_only }}
 </a>
 
-
-# Podrobné informace
-<embed src="../../../../assets/pdf/participant_info/Informace_prediktivni_zpracovani_shody_rodu.pdf#view=fitH" style="width: 100%; height: 100vh;" type="application/pdf">
+# Details
+*No details available in English*
 

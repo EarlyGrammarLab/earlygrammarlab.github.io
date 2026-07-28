@@ -18,22 +18,7 @@ bodyClass: "page-services"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    <h1>2026</h1>
-    {% assign service_list = site.services | where: "lang", lang | where: "year", 2026 | sort: "weight" %}
-    {% for service in service_list %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 150 }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-    <h1>2025</h1>
-    {% assign service_list = site.services | where: "lang", lang | where: "year", 2025 | sort: "weight" %}
+    {% assign service_list = site.services | where: "lang", lang | sort: "date" | reverse %}
     {% for service in service_list %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">

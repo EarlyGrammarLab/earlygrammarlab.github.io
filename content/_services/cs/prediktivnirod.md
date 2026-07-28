@@ -2,6 +2,7 @@
 title: "Prediktivní využití jmenného rodu u českých dětí"
 weight: 1
 year: 2026
+date: 2026-01-03
 lang: cs
 ---
 porozumění větám / gramatické informace / koncovky slov / typický jazykový vývoj a vývojová dysfázie

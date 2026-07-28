@@ -2,9 +2,10 @@
 title: "Predictive processing of grammatical gender agreement"
 weight: 1
 year: 2026
+date: 2026-01-02
 lang: en
 ---
-20–36 months / grammatical gender / predicting sentence content / eye-tracking
+23–25 months / typical development
 
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

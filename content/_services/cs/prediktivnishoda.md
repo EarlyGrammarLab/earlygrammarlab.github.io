@@ -1,10 +1,11 @@
 ---
 title: "Prediktivní zpracování gramatické shody rodu"
-weight: 1
+weight: 2
 year: 2026
+date: 2026-01-02
 lang: cs
 ---
-20–36 měsíců / gramatický rod / předvídání obsahu vět / sledování očních pohybů
+23–25 měsíců / typický vývoj
 
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

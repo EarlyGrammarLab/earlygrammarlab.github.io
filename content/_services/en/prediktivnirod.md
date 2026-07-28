@@ -2,6 +2,7 @@
 title: "Predictive use of grammatical gender in Czech children"
 weight: 1
 year: 2026
+date: 2026-01-03
 lang: en
 ---
 understanding sentences / grammatical information / word endings / typical development and DLD

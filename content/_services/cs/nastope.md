@@ -2,13 +2,18 @@
 title: "Na stopě významu: jak děti využívají gramatiku k předvídání děje"
 weight: 1
 year: 2025
+date: 2025-01-01
+group_development: "TD"
+group_age: "3,5–5,5 roku"
+active: true
 lang: cs
 ---
-porozumění větám / pořadí slov / odhad významu / typický jazykový vývoj
+3,5–5,5 roku / typický jazykový vývoj
 
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}
 
+#### Děti s typickým jazykovým vývojem
 <a href="#" class="btn-custom btn-disabled">
   {{ labels.bookings_unavailable }}
 </a>

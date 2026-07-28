@@ -2,6 +2,7 @@
 title: "Prediktivní využití čísla u českých dětí"
 weight: 3
 year: 2026
+date: 2026-01-01
 lang: cs
 ---
 gramatické informace / gramatické číslo / koncovky sloves / typický jazykový vývoj a vývojová dysfázie

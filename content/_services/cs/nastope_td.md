@@ -5,7 +5,7 @@ year: 2025
 date: 2025-01-01
 group_development: "typický vývoj"
 group_age: "3,5–5,5 roku"
-active: true
+active: false
 lang: cs
 ---
 

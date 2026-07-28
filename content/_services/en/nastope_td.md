@@ -5,7 +5,7 @@ year: 2025
 date: 2025-01-01
 group_development: "typical development"
 group_age: "3.5–5.5 years"
-active: true
+active: false
 lang: en
 ---
 {% assign lang = page.lang | default: 'en' %}

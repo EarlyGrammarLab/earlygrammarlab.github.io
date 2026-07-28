@@ -25,8 +25,8 @@ Part of WP1 (Institute of Psychology CAS is the leading partner; other partners:
 
 CZ.02.01.01/00/23_025/0008713; Ministry of Education, Czech Republic, Programme Johannes Amos Comenius
 
-<a href="https://mediatedsociety.cz/en/home-en/">
-	<img src="../../images/logo/medison.svg" width="100%">
+<a href="https://mediatedsociety.cz/en/home-en/" style="display: block; text-align: center;">
+	<img src="../../images/logo/medison.svg" width="50%">
 </a>
 
 <br/>
@@ -38,6 +38,6 @@ PI: Filip Smolík, no external partners
 
 CZ.02.01.01/00/23_025/0008713; Czech Science Foundation (GACR)
 
-<a href="https://gacr.cz/en">
-	<img src="../../images/logo/gacr_en.svg" width="100%">
+<a href="https://gacr.cz/en" style="display: block; text-align: center;">
+	<img src="../../images/logo/gacr_en.svg" width="50%">
 </a>

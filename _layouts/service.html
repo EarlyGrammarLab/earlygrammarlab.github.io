@@ -8,6 +8,19 @@ bodyClass: "page-service"
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">{{page.title}}</h1>
+
+        {% if page.group_development or page.group_age %}
+        <div class="pill-row">
+          {% if page.group_development %}
+            <span class="pill pill--dev">{{ page.group_development }}</span>
+          {% endif %}
+          {% if page.group_age %}
+            <span class="pill pill--age">{{ page.group_age }}</span>
+          {% endif %}
+        </div>
+        <br/>
+        {% endif %}
+
         <div class="content">{{content}}</div>
       </div>
     </div>

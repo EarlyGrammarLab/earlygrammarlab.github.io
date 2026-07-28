@@ -21,8 +21,8 @@ CZ.02.01.01/00/23_025/0008726; Ministerstvo školství, mládeže a tělovýchov
 
 CZ.02.01.01/00/23_025/0008713; Ministerstvo školství, mládeže a tělovýchovy České republiky, Operační program Jan Amos Komenský
 
-<a href="https://mediatedsociety.cz">
-	<img src="../../images/logo/medison.svg" width="100%">
+<a href="https://mediatedsociety.cz" style="display: block; text-align: center;">
+	<img src="../../images/logo/medison.svg" width="50%">
 </a>
 
 <br/>
@@ -32,6 +32,6 @@ CZ.02.01.01/00/23_025/0008713; Ministerstvo školství, mládeže a tělovýchov
 
 CZ.02.01.01/00/23_025/0008713; Czech Science Foundation (GACR)
 
-<a href="https://gacr.cz">
-	<img src="../../images/logo/gacr_cs.svg" width="100%">
+<a href="https://gacr.cz" style="display: block; text-align: center;">
+	<img src="../../images/logo/gacr_cs.svg" width="50%">
 </a>

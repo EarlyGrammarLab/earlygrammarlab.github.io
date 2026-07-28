@@ -1,10 +1,10 @@
 ---
-title: "Tracking the meaning: How children use grammar to predict actions"
+title: "Predictive processing of grammatical gender agreement"
 weight: 1
-year: 2025
+year: 2026
 lang: en
 ---
-understanding sentences / word order / meaning prediction / typical development
+20–36 months / grammatical gender / predicting sentence content / eye-tracking
 
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

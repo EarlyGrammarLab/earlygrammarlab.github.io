@@ -32,6 +32,6 @@ CZ.02.01.01/00/23_025/0008713; Ministerstvo školství, mládeže a tělovýchov
 
 CZ.02.01.01/00/23_025/0008713; Czech Science Foundation (GACR)
 
-<a href="https://gacr.cz/en">
+<a href="https://gacr.cz">
 	<img src="../../images/logo/gacr_cs.svg" width="100%">
 </a>

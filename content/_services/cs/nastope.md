@@ -1,6 +1,6 @@
 ---
 title: "Na stopě významu: jak děti využívají gramatiku k předvídání děje"
-weight: 3
+weight: 1
 year: 2025
 lang: cs
 ---

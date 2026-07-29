@@ -1,0 +1,71 @@
+OezgeStyle:
+  title:
+    en: "Tracking the meaning: How children use grammar to predict actions"
+    cs: "Na stopě významu: jak děti využívají gramatiku k předvídání děje"
+  active:
+    td: false
+    dld: true
+  date: 2025-01-01
+
+KlarasVerbNumber:
+  title:
+    en: "Predictive use of number in Czech children"
+    cs: "Prediktivní využití čísla u českých dětí"
+  active:
+    td: true
+    dld: true
+  date: 2026-01-01
+
+NonWordLearning:
+  title:
+    en: "Prediktivní zpracování gramatické shody rodu"
+    cs: "Predictive processing of grammatical gender agreement"
+  active:
+    td: true
+    dld: null
+  date: 2026-01-02
+
+JolcasAdjectiveGender:
+  title:
+    en: "Predictive use of grammatical gender in Czech children"
+    cs: "Prediktivní využití jmenného rodu u českých dětí"
+  active:
+    td: true
+    dld: true
+  date: 2026-01-03
+
+WithTuebingen:
+  title:
+    en: "Who does what to whom"
+    cs: "Kdo komu co dělá"
+  active:
+    td: true
+    dld: null
+  date: 2026-01-08
+
+WugTestAdapt:
+  title:
+    en: null
+    cs: null
+  active:
+    td: false
+    dld: null
+  date: null
+
+AleATak:
+  title:
+    en: null
+    cs: null
+  active:
+    td: false
+    dld: null
+  date: null
+
+WalzovaNovelVerbNumber:
+  title:
+    en: null
+    cs: null
+  active:
+    td: false
+    dld: null
+  date: null

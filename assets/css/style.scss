@@ -313,3 +313,93 @@ body {
   background: #caf3d3;
   color: #33673f;
 }
+
+.pill--gray {
+  background: #e3e3e3;
+  color: #404040;
+}
+
+/* PDF pill with icon */
+.pdf-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: #db81be;
+  color: white !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(183, 28, 28, 0.3);
+}
+
+.pdf-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(183, 28, 28, 0.4);
+}
+
+.pdf-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* booking pill with icon */
+.book-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: #802362;
+  color: white !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(183, 28, 28, 0.3);
+}
+
+.book-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(183, 28, 28, 0.4);
+}
+
+.book-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* Experiment thumbnail */
+.experiment-thumbnail {
+  margin-bottom: 0.8rem;
+}
+
+.experiment-thumbnail img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.experiment-thumbnail img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Layout adjustment - show thumbnail alongside title */
+.service-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.service-content .service-title {
+  flex: 1;
+}

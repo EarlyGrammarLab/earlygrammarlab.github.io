@@ -7,6 +7,8 @@ group_development: "typical development"
 group_age: "1st & 2nd grade"
 active: true
 lang: en
+pdf_file: "czech_only"
+booking_link: "czech_only"
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

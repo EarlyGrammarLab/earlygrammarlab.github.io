@@ -7,6 +7,8 @@ group_development: "typický vývoj"
 group_age: "1,5–2,5 roku"
 active: true
 lang: cs
+pdf_file: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_rodu_deti.pdf"
+booking_link:
 ---
 porozumění větám / gramatické informace / koncovky slov / typický jazykový vývoj a vývojová dysfázie
 

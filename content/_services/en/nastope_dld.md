@@ -7,6 +7,8 @@ group_development: "DLD"
 group_age: "5–7 years"
 active: true
 lang: en
+pdf_file: "czech_only"
+booking_link: "czech_only"
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

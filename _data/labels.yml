@@ -12,9 +12,12 @@ en:
   file_label: "File"
   link: "Link"
   bookings_cz_only: "Bookings are currently only available in Czech"
+  details_cz_only: "Details are currently only available in Czech"
   bookings_unavailable: "Booking is not currently open for this experiment"
+  book_label: "Book a date"
   registration_open: "Registration open"
-  registration_archive: "Archive"
+  registration_archive: "Ended"
+  experiment_info: "Details"
 
 cs:
   categories:
@@ -32,4 +35,5 @@ cs:
   bookings_unavailable: "Přihlašování na tento experiment není v tuto chvíli možné"
   book_label: "Rezervovat termín"
   registration_open: "Otevřené přihlašování"
-  registration_archive: "Archiv"
+  registration_archive: "Ukončené"
+  experiment_info: "Podrobnosti"

@@ -7,6 +7,9 @@ group_development: "vývojová dysfázie"
 group_age: "5–7 let"
 active: true
 lang: cs
+pdf_file: "/assets/pdf/participant_info/informace_na_stope_vyznamu.pdf"
+booking_link:
+thumbnail:
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

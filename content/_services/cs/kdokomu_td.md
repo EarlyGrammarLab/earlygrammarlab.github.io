@@ -7,6 +7,9 @@ group_development: "typický vývoj"
 group_age: "1. a 2. třída"
 active: true
 lang: cs
+pdf_file: "/assets/pdf/participant_info/Informace_kdo_komu_co.pdf"
+booking_link: 
+thumbnail: "/images/experiments/Školáci_web.png"
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

@@ -7,6 +7,8 @@ group_development: "vývojová dysfázie"
 group_age: "3,5–5,5 roku"
 active: true
 lang: cs
+pdf_file: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_cisla_deti.pdf"
+booking_link: 
 ---
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}

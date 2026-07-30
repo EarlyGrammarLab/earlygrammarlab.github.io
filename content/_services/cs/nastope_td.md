@@ -7,9 +7,10 @@ group_development: "typický vývoj"
 group_age: "3,5–5,5 roku"
 active: false
 lang: cs
+pdf_file: "/assets/pdf/participant_info/informace_na_stope_vyznamu.pdf"
+booking_link:
+thumbnail: "/images/experiments/OezgeStyle_typické_web.png"
 ---
-
-
 {% assign lang = page.lang | default: 'en' %}
 {% assign labels = site.data.labels[lang] %}
 

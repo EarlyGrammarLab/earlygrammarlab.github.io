@@ -1,40 +1,91 @@
 labphotos:
   images:
     - src: /images/galleries/labphoto/gal_01.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_02.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_03.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_04.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_11.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_05.webp
-    #- src: /images/galleries/labphoto/gal_07.webp
-    #- src: /images/galleries/labphoto/gal_08.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_09.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_10.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_06.webp
+      type: image
+      alt: ""
     - src: /images/galleries/labphoto/gal_12.webp
-    #- src: /images/galleries/labphoto/gal_13.webp
+      type: image
+      alt: ""
   height: 300px
 
 testingphotos:
   images:
     - src: /images/galleries/testingphoto/gal_testphotos (1).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (20).webp
-    #- src: /images/galleries/testingphoto/gal_testphotos (2).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (3).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (4).webp
-    #- src: /images/galleries/testingphoto/gal_testphotos (5).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (6).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (7).webp
-    #- src: /images/galleries/testingphoto/gal_testphotos (8).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (9).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (10).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (11).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (12).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (13).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (14).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (15).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (16).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (17).webp
-    - src: /images/galleries/testingphoto/gal_testphotos (18).webp
+      type: image
+      alt: ""
     - src: /images/galleries/testingphoto/gal_testphotos (19).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (23).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (22).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (25).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (26).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (21).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos (28).webp
+      type: image
+      alt: ""
+    - src: /images/galleries/testingphoto/gal_testphotos-video (1).mp4
+      type: video
+      alt: ""
   height: 300px

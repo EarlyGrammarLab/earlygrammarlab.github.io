@@ -38,7 +38,7 @@ OezgeStyle_dld:
     en: null
     cs: null
   booking_link:
-    en: "czech_only"
+    en: null
     cs: null
   group_age:
     en: "5–7 years"
@@ -47,8 +47,8 @@ OezgeStyle_dld:
 
 NonWordLearning_td:
   title:
-    en: "Prediktivní zpracování gramatické shody rodu"
-    cs: "Predictive processing of grammatical gender agreement"
+    en: "Predictive processing of grammatical gender agreement"
+    cs: "Prediktivní zpracování gramatické shody rodu"
   active: true
   group: "td"
   pdf_file:
@@ -58,7 +58,7 @@ NonWordLearning_td:
     en: "/images/experiments/MartinaET.webp"
     cs: "/images/experiments/MartinaET.webp"
   booking_link:
-    en: "czech_only"
+    en: null
     cs: null
   group_age:
     en: "23–25 months"
@@ -78,7 +78,7 @@ JolcasAdjectiveGender_td:
     en: "/images/experiments/Jolca+KlaraET.webp"
     cs: "/images/experiments/Jolca+KlaraET.webp"
   booking_link:
-    en: "czech_only"
+    en: null
     cs: null
   group_age:
     en: "1.5–2.5 years"
@@ -98,12 +98,52 @@ JolcasAdjectiveGender_dld:
     en: null
     cs: null
   booking_link:
-    en: "czech_only"
+    en: null
     cs: null
   group_age:
     en: "3.5–5.5 years"
     cs: "3,5–5,5 roku"
   date: 2026-01-03
+
+KlarasVerbNumber_td:
+  title:
+    en: "Predictive use of number in Czech children"
+    cs: "Prediktivní využití čísla u českých dětí"
+  active: true
+  group: "td"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_cisla_deti.pdf"
+  thumbnail:
+    en: "/images/experiments/Jolca+KlaraET.webp"
+    cs: "/images/experiments/Jolca+KlaraET.webp"
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: "1.5–2.5 years"
+    cs: "1,5–2,5 roku"
+  date: 2026-01-04
+
+KlarasVerbNumber_dld:
+  title:
+    en: "Predictive use of number in Czech children"
+    cs: "Prediktivní využití čísla u českých dětí"
+  active: true
+  group: "dld"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_cisla_deti.pdf"
+  thumbnail:
+    en: null
+    cs: null
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: "3.5–5.5 years"
+    cs: "3,5–5,5 roku"
+  date: 2026-01-05
 
 WithTuebingen_td:
   title:
@@ -118,12 +158,12 @@ WithTuebingen_td:
     en: "/images/experiments/Školáci.webp"
     cs: "/images/experiments/Školáci.webp"
   booking_link:
-    en: "czech_only"
+    en: null
     cs: null
   group_age:
     en: "1st and 2nd grade"
     cs: "1. a 2. třída"
-  date: 2026-01-04
+  date: 2026-01-06
 
 WalzovaNovelVerbNumber:
   title:

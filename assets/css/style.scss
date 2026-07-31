@@ -375,31 +375,34 @@ body {
 
 /* Experiment thumbnail */
 .experiment-thumbnail {
-  margin-bottom: 0.8rem;
-}
-
-.experiment-thumbnail img {
+  min-width: 120px;
   width: 120px;
   height: 160px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-  cursor: pointer;
+  margin-bottom: 0.8rem;
+  
+  &.placeholder {
+    border-radius: 12px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+  }
 }
 
-.experiment-thumbnail img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-}
-
-/* Layout adjustment - show thumbnail alongside title */
+/* Layout adjustment - show thumbnail alongside other items */
 .service-content {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
-}
-
-.service-content .service-title {
-  flex: 1;
 }

@@ -17,7 +17,11 @@ en:
   book_label: "Book a date"
   registration_open: "Registration open"
   registration_archive: "Ended"
+  registration_planned: "In preparation"
   experiment_info: "Details"
+  group_labels:
+    td: "typical development"
+    dld: "DLD"
 
 cs:
   categories:
@@ -36,4 +40,8 @@ cs:
   book_label: "Rezervovat termín"
   registration_open: "Otevřené přihlašování"
   registration_archive: "Ukončené"
+  registration_planned: "Připravujeme"
   experiment_info: "Podrobnosti"
+  group_labels:
+    td: "typický vývoj"
+    dld: "vývojová dysfázie"

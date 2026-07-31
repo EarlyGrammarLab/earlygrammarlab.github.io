@@ -16,9 +16,6 @@ home:
 
 collections_dir: content
 collections:
-  services:
-    output: true
-    sort_by: weight
   team:
     output: true
   publications:

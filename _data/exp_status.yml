@@ -1,71 +1,186 @@
-OezgeStyle:
+# HOW TO USE THIS FILE
+# every experiment is its own entry
+# the active field can be set to false (ended), true (registration open) or null (do not include in the page)
+# the group field can be set to td (typical development) or dld (developmental language disorder)
+# when the group, booking_link or group_age fields are empty, the respective tag pills / buttons are not displayed
+# the czech_only value is used to signify the field is available in Czech but not in the currently chosen language
+
+OezgeStyle_td:
   title:
     en: "Tracking the meaning: How children use grammar to predict actions"
     cs: "Na stopě významu: jak děti využívají gramatiku k předvídání děje"
-  active:
-    td: false
-    dld: true
+  active: false
+  group: "td"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_na_stope_vyznamu.pdf"
+  thumbnail:
+    en: "/images/experiments/OezgeStyle.webp"
+    cs: "/images/experiments/OezgeStyle.webp"
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: "3.5–5.5 years"
+    cs: "3,5–5,5 roku"
   date: 2025-01-01
 
-KlarasVerbNumber:
+OezgeStyle_dld:
   title:
-    en: "Predictive use of number in Czech children"
-    cs: "Prediktivní využití čísla u českých dětí"
-  active:
-    td: true
-    dld: true
-  date: 2026-01-01
+    en: "Tracking the meaning: How children use grammar to predict actions"
+    cs: "Na stopě významu: jak děti využívají gramatiku k předvídání děje"
+  active: true
+  group: "dld"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_na_stope_vyznamu.pdf"
+  thumbnail:
+    en: null
+    cs: null
+  booking_link:
+    en: "czech_only"
+    cs: null
+  group_age:
+    en: "5–7 years"
+    cs: "5–7 let"
+  date: 2025-01-02
 
-NonWordLearning:
+NonWordLearning_td:
   title:
     en: "Prediktivní zpracování gramatické shody rodu"
     cs: "Predictive processing of grammatical gender agreement"
-  active:
-    td: true
-    dld: null
-  date: 2026-01-02
+  active: true
+  group: "td"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/Informace_prediktivni_zpracovani_shody_rodu.pdf"
+  thumbnail:
+    en: "/images/experiments/MartinaET.webp"
+    cs: "/images/experiments/MartinaET.webp"
+  booking_link:
+    en: "czech_only"
+    cs: null
+  group_age:
+    en: "23–25 months"
+    cs: "23–25 měsíců"
+  date: 2026-01-01
 
-JolcasAdjectiveGender:
+JolcasAdjectiveGender_td:
   title:
     en: "Predictive use of grammatical gender in Czech children"
     cs: "Prediktivní využití jmenného rodu u českých dětí"
-  active:
-    td: true
-    dld: true
+  active: true
+  group: "td"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_rodu_deti.pdf"
+  thumbnail:
+    en: "/images/experiments/Jolca+KlaraET.webp"
+    cs: "/images/experiments/Jolca+KlaraET.webp"
+  booking_link:
+    en: "czech_only"
+    cs: null
+  group_age:
+    en: "1.5–2.5 years"
+    cs: "1,5–2,5 roku"
+  date: 2026-01-02
+
+JolcasAdjectiveGender_dld:
+  title:
+    en: "Predictive use of grammatical gender in Czech children"
+    cs: "Prediktivní využití jmenného rodu u českých dětí"
+  active: true
+  group: "dld"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_rodu_deti.pdf"
+  thumbnail:
+    en: null
+    cs: null
+  booking_link:
+    en: "czech_only"
+    cs: null
+  group_age:
+    en: "3.5–5.5 years"
+    cs: "3,5–5,5 roku"
   date: 2026-01-03
 
-WithTuebingen:
+WithTuebingen_td:
   title:
     en: "Who does what to whom"
     cs: "Kdo komu co dělá"
-  active:
-    td: true
-    dld: null
-  date: 2026-01-08
+  active: true
+  group: "td"
+  pdf_file:
+    en: "czech_only"
+    cs: "/assets/pdf/participant_info/Informace_kdo_komu_co.pdf"
+  thumbnail:
+    en: "/images/experiments/Školáci.webp"
+    cs: "/images/experiments/Školáci.webp"
+  booking_link:
+    en: "czech_only"
+    cs: null
+  group_age:
+    en: "1st and 2nd grade"
+    cs: "1. a 2. třída"
+  date: 2026-01-04
+
+WalzovaNovelVerbNumber:
+  title:
+    en: "TBD"
+    cs: "TBD"
+  active: planned
+  group: "td"
+  pdf_file:
+    en: null
+    cs: null
+  thumbnail:
+    en: "/images/experiments/LucieET.webp"
+    cs: "/images/experiments/LucieET.webp"
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: "27–33 months"
+    cs: "27–33 měsíců"
+  date: 2026-07-31
 
 WugTestAdapt:
   title:
     en: null
     cs: null
-  active:
-    td: false
-    dld: null
+  active: null
+  group: null
+  pdf_file:
+    en: null
+    cs: null
+  thumbnail:
+    en: null
+    cs: null
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: null
+    cs: null
   date: null
 
 AleATak:
   title:
     en: null
     cs: null
-  active:
-    td: false
-    dld: null
-  date: null
-
-WalzovaNovelVerbNumber:
-  title:
+  active: null
+  group: null
+  pdf_file:
     en: null
     cs: null
-  active:
-    td: false
-    dld: null
+  thumbnail:
+    en: null
+    cs: null
+  booking_link:
+    en: null
+    cs: null
+  group_age:
+    en: null
+    cs: null
   date: null

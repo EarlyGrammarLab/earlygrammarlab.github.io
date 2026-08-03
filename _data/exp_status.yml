@@ -1,6 +1,6 @@
 # HOW TO USE THIS FILE
 # every experiment is its own entry
-# the active field can be set to false (ended), true (registration open) or null (do not include in the page)
+# the active field can be set to false (ended), planned (in preparation), true (registration open) or null (do not include in the page)
 # the group field can be set to td (typical development) or dld (developmental language disorder)
 # when the group, booking_link or group_age fields are empty, the respective tag pills / buttons are not displayed
 # the czech_only value is used to signify the field is available in Czech but not in the currently chosen language
@@ -23,6 +23,9 @@ OezgeStyle_td:
   group_age:
     en: "3.5–5.5 years"
     cs: "3,5–5,5 roku"
+  blurb:
+    en:
+    cs:
   date: 2025-01-01
 
 OezgeStyle_dld:
@@ -35,14 +38,17 @@ OezgeStyle_dld:
     en: "czech_only"
     cs: "/assets/pdf/participant_info/informace_na_stope_vyznamu.pdf"
   thumbnail:
-    en: null
-    cs: null
+    en: "/images/experiments/letacek_na stope vyznamu_VD.webp"
+    cs: "/images/experiments/letacek_na stope vyznamu_VD.webp"
   booking_link:
     en: null
     cs: null
   group_age:
     en: "5–7 years"
     cs: "5–7 let"
+  blurb:
+    en:
+    cs:
   date: 2025-01-02
 
 NonWordLearning_td:
@@ -63,13 +69,16 @@ NonWordLearning_td:
   group_age:
     en: "23–25 months"
     cs: "23–25 měsíců"
+  blurb:
+    en:
+    cs:
   date: 2026-01-01
 
-JolcasAdjectiveGender_td:
+JolcasAdjectiveGender&KlarasVerbNumber_td:
   title:
-    en: "Predictive use of grammatical gender in Czech children"
-    cs: "Prediktivní využití jmenného rodu u českých dětí"
-  active: true
+    en: "Predictive use of grammatical gender and number in Czech children"
+    cs: "Prediktivní využití jmenného rodu a čísla u českých dětí"
+  active: planned
   group: "td"
   pdf_file:
     en: "czech_only"
@@ -83,13 +92,16 @@ JolcasAdjectiveGender_td:
   group_age:
     en: "1.5–2.5 years"
     cs: "1,5–2,5 roku"
+  blurb:
+    en: "We are currently preparing two experiments in this category, and we will be happy to welcome your child in both. If you are interested, you may optionally book two dates right away or add another one later."
+    cs: "V této kategorii připravujeme dva experimenty. Rádi uvidíme Vaše dítě v obou z nich. Pokud máte chuť, můžete si rovnou rezervovat dva termíny. Nebo se na druhý můžete přihlásit později."
   date: 2026-01-02
 
-JolcasAdjectiveGender_dld:
+JolcasAdjectiveGender&KlarasVerbNumber_dld:
   title:
-    en: "Predictive use of grammatical gender in Czech children"
-    cs: "Prediktivní využití jmenného rodu u českých dětí"
-  active: true
+    en: "Predictive use of grammatical gender and number in Czech children"
+    cs: "Prediktivní využití jmenného rodu a čísla u českých dětí"
+  active: planned
   group: "dld"
   pdf_file:
     en: "czech_only"
@@ -103,47 +115,10 @@ JolcasAdjectiveGender_dld:
   group_age:
     en: "3.5–5.5 years"
     cs: "3,5–5,5 roku"
+  blurb:
+    en: "We are currently preparing two experiments in this category, and we will be happy to welcome your child in both. If you are interested, you may optionally book two dates right away or add another one later."
+    cs: "V této kategorii připravujeme dva experimenty. Rádi uvidíme Vaše dítě v obou z nich. Pokud máte chuť, můžete si rovnou rezervovat dva termíny. Nebo se na druhý můžete přihlásit později."
   date: 2026-01-03
-
-KlarasVerbNumber_td:
-  title:
-    en: "Predictive use of number in Czech children"
-    cs: "Prediktivní využití čísla u českých dětí"
-  active: true
-  group: "td"
-  pdf_file:
-    en: "czech_only"
-    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_cisla_deti.pdf"
-  thumbnail:
-    en: "/images/experiments/Jolca+KlaraET.webp"
-    cs: "/images/experiments/Jolca+KlaraET.webp"
-  booking_link:
-    en: null
-    cs: null
-  group_age:
-    en: "1.5–2.5 years"
-    cs: "1,5–2,5 roku"
-  date: 2026-01-04
-
-KlarasVerbNumber_dld:
-  title:
-    en: "Predictive use of number in Czech children"
-    cs: "Prediktivní využití čísla u českých dětí"
-  active: true
-  group: "dld"
-  pdf_file:
-    en: "czech_only"
-    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_cisla_deti.pdf"
-  thumbnail:
-    en: null
-    cs: null
-  booking_link:
-    en: null
-    cs: null
-  group_age:
-    en: "3.5–5.5 years"
-    cs: "3,5–5,5 roku"
-  date: 2026-01-05
 
 WithTuebingen_td:
   title:
@@ -163,6 +138,9 @@ WithTuebingen_td:
   group_age:
     en: "1st and 2nd grade"
     cs: "1. a 2. třída"
+  blurb:
+    en:
+    cs:
   date: 2026-01-06
 
 WalzovaNovelVerbNumber:
@@ -183,6 +161,9 @@ WalzovaNovelVerbNumber:
   group_age:
     en: "27–33 months"
     cs: "27–33 měsíců"
+  blurb:
+    en:
+    cs:
   date: 2026-07-31
 
 WugTestAdapt:
@@ -203,6 +184,9 @@ WugTestAdapt:
   group_age:
     en: null
     cs: null
+  blurb:
+    en:
+    cs:
   date: null
 
 AleATak:
@@ -223,4 +207,7 @@ AleATak:
   group_age:
     en: null
     cs: null
+  blurb:
+    en:
+    cs:
   date: null

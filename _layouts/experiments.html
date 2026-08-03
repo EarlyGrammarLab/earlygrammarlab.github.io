@@ -28,6 +28,15 @@ bodyClass: "page-services"
     {% endfor %}
   </div>
 
+  <!-- Planned Experiments -->
+  <div class="row">
+    <h1> {{ labels.registration_planned }} </h1>
+    {% assign planned_experiments = site.data.exp_status | where_exp: "item", "item.active == 'planned'" | sort: "date" | reverse %}
+    {% for service in planned_experiments %}
+    {% include experiment-card.html service=service lang=lang show_link=false %}
+    {% endfor %}
+  </div>
+
   <!-- Archived Experiments -->
   <div class="row">
     <h1> {{ labels.registration_archive }} </h1>
@@ -37,14 +46,6 @@ bodyClass: "page-services"
     {% endfor %}
   </div>
 
-  <!-- Planned Experiments -->
-  <div class="row">
-    <h1> {{ labels.registration_planned }} </h1>
-    {% assign planned_experiments = site.data.exp_status | where_exp: "item", "item.active == 'planned'" | sort: "date" | reverse %}
-    {% for service in planned_experiments %}
-    {% include experiment-card.html service=service lang=lang show_link=false %}
-    {% endfor %}
-  </div>
 
 
 

@@ -22,5 +22,5 @@ The institute is near the Ládví metro station. Please note that navigation sys
 Would you be interested in joining one of our experiments? Please fill our form below, we will notify you when a suitable experiment opens.
 
 <a href="#" class="btn-custom btn-disabled">
-  This option is currently only available in Czech
+  The form is currently only available in Czech
 </a>

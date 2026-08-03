@@ -1,7 +1,7 @@
 ---
 title: "Lukáš Jiřička"
 image: "/images/team/jiricka_lukas.jpg"
-jobtitle: "Doktorand"
+jobtitle: "Doktorand, technik"
 promoted: true
 weight: 4
 layout: bio

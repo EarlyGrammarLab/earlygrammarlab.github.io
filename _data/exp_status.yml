@@ -41,8 +41,8 @@ OezgeStyle_dld:
     en: "/images/experiments/letacek_na stope vyznamu_VD.webp"
     cs: "/images/experiments/letacek_na stope vyznamu_VD.webp"
   booking_link:
-    en: null
-    cs: null
+    en: "czech_only"
+    cs: "https://outlook.office.com/book/Jazykovdnexperimentod35roku1@avcr.onmicrosoft.com/s/Nr-ajVb210K5dHl_BwGFDQ2?ismsaljsauthenabled"
   group_age:
     en: "5–7 years"
     cs: "5–7 let"

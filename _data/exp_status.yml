@@ -64,8 +64,8 @@ NonWordLearning_td:
     en: "/images/experiments/MartinaET.webp"
     cs: "/images/experiments/MartinaET.webp"
   booking_link:
-    en: null
-    cs: null
+    en: "czech_only"
+    cs: "https://outlook.office.com/book/Jazykovdnexperimentod35roku1@avcr.onmicrosoft.com/s/Pu7PEwqVQ0qG8gHbeq_XAA2?ismsaljsauthenabled"
   group_age:
     en: "23–25 months"
     cs: "23–25 měsíců"
@@ -133,8 +133,8 @@ WithTuebingen_td:
     en: "/images/experiments/Školáci.webp"
     cs: "/images/experiments/Školáci.webp"
   booking_link:
-    en: null
-    cs: null
+    en: "czech_only"
+    cs: "https://outlook.office.com/book/Jazykovdnexperimentod35roku1@avcr.onmicrosoft.com/s/GBNRGIN8TUWdQphwpxnxqw2?ismsaljsauthenabled"
   group_age:
     en: "1st and 2nd grade"
     cs: "1. a 2. třída"
@@ -147,7 +147,7 @@ WalzovaNovelVerbNumber:
   title:
     en: "TBD"
     cs: "TBD"
-  active: planned
+  active: true
   group: "td"
   pdf_file:
     en: null
@@ -156,11 +156,11 @@ WalzovaNovelVerbNumber:
     en: "/images/experiments/LucieET.webp"
     cs: "/images/experiments/LucieET.webp"
   booking_link:
-    en: null
-    cs: null
+    en: "czech_only"
+    cs: "https://outlook.office.com/book/Jazykovdnexperimentod35roku1@avcr.onmicrosoft.com/s/jMUV-Tfx306phKf7Vi7hTA2?ismsaljsauthenabled"
   group_age:
-    en: "27–33 months"
-    cs: "27–33 měsíců"
+    en: "2–3 years"
+    cs: "2–3 roky"
   blurb:
     en:
     cs:

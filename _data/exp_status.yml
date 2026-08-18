@@ -82,7 +82,7 @@ JolcasAdjectiveGender&KlarasVerbNumber_td:
   group: "td"
   pdf_file:
     en: "czech_only"
-    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_rodu_deti.pdf"
+    cs: "/assets/pdf/participant_info/Informace_cislo-rod_spojeny.pdf"
   thumbnail:
     en: "/images/experiments/Jolca+KlaraET.webp"
     cs: "/images/experiments/Jolca+KlaraET.webp"
@@ -105,7 +105,7 @@ JolcasAdjectiveGender&KlarasVerbNumber_dld:
   group: "dld"
   pdf_file:
     en: "czech_only"
-    cs: "/assets/pdf/participant_info/informace_prediktivni_vyuziti_rodu_deti.pdf"
+    cs: "/assets/pdf/participant_info/Informace_cislo-rod_spojeny.pdf"
   thumbnail:
     en: null
     cs: null

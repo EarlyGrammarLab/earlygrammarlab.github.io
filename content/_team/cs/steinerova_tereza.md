@@ -3,7 +3,7 @@ title: "Tereza Steinerová"
 image: "/images/team/steinerova_tereza.webp"
 jobtitle: "Student, koordinátor laboratorních aktivit"
 promoted: true
-weight: 5
+weight: 4
 layout: bio
 lang: cs
 ---

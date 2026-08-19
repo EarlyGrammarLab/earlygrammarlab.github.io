@@ -3,11 +3,11 @@ title: "Tereza Steinerová"
 image: "/images/team/steinerova_tereza.webp"
 jobtitle: "Student, laboratory coordinator"
 promoted: true
-weight: 5
+weight: 4
 layout: bio
 lang: en
 ---
-*child language development, eye-tracking;*
+*child language development, eye-tracking*
 
 I am currently completing my Master’s degree in [Theoretical and Research Psychology at Charles University](https://www.studujfhs.com/tvp). I am also working at EAGLeLab, where I first became involved through an internship and practical training. I am now primarily involved in coordinating eye-tracking laboratory activities and conducting experiments using eye-tracking methods.
 

@@ -3,7 +3,7 @@ title: "Jolana Treichelová"
 image: "/images/team/treichelova_jolana.jpg"
 jobtitle: "Doktorand"
 promoted: true
-weight: 4
+weight: 3
 layout: bio
 lang: cs
 ---

@@ -44,7 +44,7 @@ cs:
     - name: "Kontakt"
       url: "/cs/contact/"
       weight: 6
-    - name: "Projekty"
+    - name: "Financování"
       url: "/cs/acknowledgments/"
       weight: 7
 

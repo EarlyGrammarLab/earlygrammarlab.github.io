@@ -7,6 +7,6 @@ weight: 4
 layout: bio
 lang: cs
 ---
-*kognitivní neurověda, EEG, fNIRS*
+*kognitivní neurověda, EEG, evoluční psychologie*
 
 Bližší informace jsou dostupné na anglické verzi této stránky.

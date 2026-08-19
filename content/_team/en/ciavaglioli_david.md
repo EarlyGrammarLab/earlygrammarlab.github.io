@@ -7,7 +7,7 @@ weight: 4
 layout: bio
 lang: en
 ---
-*cognitive neuroscience, EEG, fNIRS*
+*cognitive neuroscience, EEG, evolutionary psychology*
 
 Hi, nice to meet you! My name is David, and I hold a Master of Science in Cognitive Psychology and Neuroscience from the University of Pavia and am currently a Junior Researcher at the Institute of Psychology of the Czech Academy of Sciences in the EAGLeLab, under the supervision of Professor Filip Smolík, where I am preparing to begin my PhD studies.
 

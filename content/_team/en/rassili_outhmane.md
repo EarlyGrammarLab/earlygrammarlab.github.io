@@ -2,7 +2,7 @@
 title: "Outhmane Rassili"
 image: "/images/team/rassili_outhmane.jpg"
 jobtitle: "Postdoctoral researcher"
-promoted: true
+promoted: false
 weight: 3
 layout: bio
 lang: en

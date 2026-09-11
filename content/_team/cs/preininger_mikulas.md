@@ -2,7 +2,7 @@
 title: "Mikuláš Preininger"
 image: "/images/team/preininger_mikulas.jpg"
 jobtitle: "Postdoktorand"
-promoted: true
+promoted: false
 weight: 3
 layout: bio
 lang: cs

@@ -5,11 +5,13 @@ jobtitle: "Postdoktorand"
 promoted: true
 weight: 3
 layout: bio
-lang: cs
+lang: "cs"
 ---
-*shoda v gramatickém rodu, vliv extralingvistických znalostí*
+*shoda v gramatickém rodu, vliv mimojazykových znalostí*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Jsem postdoktorandka na [*Ústavu psychologie AV ČR*](https://psu.cas.cz/). Vystudovala jsem formální lingvistiku na Padovské univerzitě a následně jsem získala titul Ph.D. v oboru Psychologie, lingvistika a kognitivní neurověda na Università degli Studi di Milano-Bicocca.
+
+Ve své výzkumné činnosti se momentálně zaměřuji na to, jak sociální a sémantické znalosti ovlivňují morfosyntaktickou shodu v rodu. Z širšího pohledu se zajímám o to,  jak mimojazyková zkušenost obecně interaguje s pevnými pravidly morfosyntaxe, a snažím se identifikovat jazykové vlastnosti, které řídí procesy syntaktické shody.
 
 ### Vybrané publikace
 

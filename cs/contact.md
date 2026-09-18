@@ -4,6 +4,9 @@ layout: contact
 lang: cs
 description: Kontakt
 ---
+{% assign lang = page.lang | default = 'en' %}
+{% assign labels = site.data.labels[lang] %}
+
 ## Kde nás najdete
 
 Naši laboratoř najdete na pražské pobočce Psychologického ústavu Akademie věd České republiky, který **dočasně** sídlí na adrese:
@@ -21,6 +24,6 @@ V průběhu roku **2027** se ústav přesune na své původní sídlo v centru m
 
 Chtěli byste se zúčastnit některého z našich experimentů? Vyplňte prosím dotazník níže, ozveme se Vám, jakmile pro Vás najdeme vhodný výzkum.
 
-<a href="https://eaglelab-participants.uklab.cz/" class="btn-custom btn-primary">
-  Chci se registrovat do databáze účastníků
+<a href="{{ labels.database_button.link }}" class="{{ labels.database_button.buttontype }}">
+	{{ labels.database_button.text }}
 </a>

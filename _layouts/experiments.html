@@ -28,6 +28,17 @@ bodyClass: "page-services"
     {% endfor %}
   </div>
 
+  <!-- Button -->
+  <div class="row">
+    <h1> {{ labels.database_header }} </h1>
+    <p>{{ labels.database_buttonblurb }}</p>
+    <p>
+      <a href="{{ labels.database_button.link }}" class="{{ labels.database_button.buttontype }}">
+        {{ labels.database_button.text }}
+      </a>
+    </p>
+  </div>
+
   <!-- Planned Experiments -->
   <div class="row">
     <h1> {{ labels.registration_planned }} </h1>
@@ -45,9 +56,6 @@ bodyClass: "page-services"
     {% include experiment-card.html service=service lang=lang show_link=false %}
     {% endfor %}
   </div>
-
-
-
 
 </div>
 

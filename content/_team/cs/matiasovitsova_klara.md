@@ -5,11 +5,15 @@ jobtitle: "Postdoktorand"
 promoted: true
 weight: 3
 layout: bio
-lang: cs
+lang: "cs"
 ---
 *vývojová dysfázie, korpusy dětského jazyka*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Jsem postdoktorandka na [*Filozofické fakultě Univerzity Karlovy*](https://www.ff.cuni.cz/) a [*Psychologickém ústavu AV ČR*](https://psu.cas.cz).
+
+Zaměřuji se především na jazkový vývoj předškolních dětí a dětí v raném školním věku s vývojovou dysfázií a obtíži s používáním jazyka, zejména pak s ohledem na osvojování gramatiky ve srovnání s typicky se vyvíjejícími dětmi. Ve své dizertační práci se věnuji vztahu mezi schopností imitovat věty, pracovní pamětí a jazykovými schopnostmi těchto dětí.
+
+Také se podílím na vedení vývoje korpusů dětského jazyka pod skupinou [*CoCzeFLA*](https://coczefla.ff.cuni.cz/), kde jsem v tuto chvíli primárně odpovědná za koordinaci morfologické anotace.
 
 ### Vybrané publikace
 

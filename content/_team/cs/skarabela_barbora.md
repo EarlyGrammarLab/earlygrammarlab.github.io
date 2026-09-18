@@ -9,7 +9,11 @@ lang: cs
 ---
 *osvojování gramatiky, diskurz*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Do skupiny EAGLeLab při [*Psychologickém ústavu AV ČR*](https://psu.cas.cz) jsem se jako seniorní výzkumník připojila v lednu roku 2025. V centru mých výzkumných zájmů stojí dětský jazykový vývoj, zejména se pak soustředím na to, jak si děti osvojují gramatiku a učí se orientovat v diskurzu. Využívám při tom kombinaci experimentálních a korpusových metod.
+
+Na akademickou dráhu jsem nastoupila bakalářským studiem na [*Univerzitě Palackého v Olomouci*](https://www.upol.cz/). Na něj jsem navázala postgraduálním studiem ve Spojených státech, kde jsem získala titul Ph.D. v oboru Aplikovaná lingvistika na Bostonské univerzitě. Ve svém doktorském výzkumu jsem se soustředila na jazykový vývoj dětí, které si osvojují inuktitut, jazyk původních obyvatel severní Kanady.
+
+Nastoupila jsem na Edinburskou univerzitu jako odborný asistent v programu osvojování jazyka a od té doby jsem zastávala řadu výzkumných pozic. Jsem také zakládající členkou vývojově orientované laboratoře [*Wee Science*](https://www.weescience.ppls.ed.ac.uk/) při School of Philosophy, Psychology and Language Sciences nebo laboratoře [*ELfLanD (Edinburgh Laboratory for Language Development)*](https://www.elfland.ppls.ed.ac.uk/). Od roku 2019 zastávám pozici specialisty pro transfer znalostí a společenský dopad při výzkumné skupině [*Lothian Birth Cohorts*](https://lothian-birth-cohorts.ed.ac.uk/), která formou longitudinálních studií zkoumá mozek a kognitivní důsledky stárnutí. V laboratoři řídím aktivity zapojující veřejnost do procesu bádání a pomáhám zbytku týmu přenášet dopady výzkumu do praxe. Jsem také redaktorkou Disconnected Mind Newsletter, čtvrtletní publikace, která přináší informace o aktuálním dění ve skupině Lothian Birth Cohorts a jejích poznatcích.
 
 ### Vybrané publikace
 

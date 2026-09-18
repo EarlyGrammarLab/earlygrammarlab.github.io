@@ -11,7 +11,7 @@ lang: "en"
 
 I am a postdoctoral researcher at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/), and at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).
 
-I founded the group [*CoCzeFLA*](https://coczefla.ff.cuni.cz/) under which child language corpora are built and I further work to develop it. My PhD project is concerned with the acquision of *I* and *You* pronouns and other ways of referring to self and others. Within EAGLeLab, I study early comprehension of case morphology in Czech, also in comparison to German.
+I founded the group [*CoCzeFLA*](https://coczefla.ff.cuni.cz/) under which child language corpora are built and I further work to develop it. My PhD project was concerned with the acquision of *I* and *You* pronouns and other ways of referring to self and others. Within EAGLeLab, I study early comprehension of case morphology in Czech, also in comparison to German.
 
 ### Selected publications
 

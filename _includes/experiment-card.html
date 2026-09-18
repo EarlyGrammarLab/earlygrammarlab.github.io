@@ -28,6 +28,7 @@
               <span class="pill pill--age">{{ service.group_age[lang] }}</span>
             {% endif %}
 
+            <!-- Further information link (PDF document)
             {% if service.pdf_file[lang] %}
               {% if service.pdf_file[lang] == "czech_only" %}
                 <span class="pill pill--gray">
@@ -47,6 +48,7 @@
                 </a>
               {% endif %}
             {% endif %}
+            -->
 
             {% if service.booking_link[lang] %}
               {% if service.booking_link[lang] == "czech_only" %}

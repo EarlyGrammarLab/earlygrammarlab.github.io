@@ -9,7 +9,9 @@ lang: en
 ---
 *neuroscience of language processing, phonological and morphological structures*
 
-I am a postdoctoral researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/). I hold a Master’s degree in Cognitive Neuroscience of Language from the [*Basque Center on Cognition, Brain and Language (BCBL)*](https://www.bcbl.eu/es) and a PhD in Cognitive Science/Psycholinguistics from Aix-Marseille University, where I specialized in speech perception, phonology, and prosody during my stay the [*Laboratoire Parole et Langage (LPL)*](https://www.lpl-aix.fr/en/welcome-to-lpl/).
+I am a postdoctoral researcher, currently working at the [*Basque Center on Cognition, Brain and Language (BCBL)*](https://www.bcbl.eu/es). Before that, I was a postdoctoral researcher at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/).
+
+I hold a Master’s degree in Cognitive Neuroscience of Language from BCBL, and a PhD in Cognitive Science/Psycholinguistics from Aix-Marseille University, where I specialized in speech perception, phonology, and prosody during my stay the [*Laboratoire Parole et Langage (LPL)*](https://www.lpl-aix.fr/en/welcome-to-lpl/).
 
 As a psycholinguist and phonetician, I combine electroencephalography (EEG) with behavioral methods to investigate the neural and cognitive mechanisms underlying speech processing. My research focuses on how phonological and morphological structures shape language processing and acquisition, with particular attention to their role in lexical access and the mental representations of language.
 

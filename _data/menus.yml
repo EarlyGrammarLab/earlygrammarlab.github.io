@@ -15,9 +15,12 @@ en:
     - name: "Contact"
       url: "/en/contact/"
       weight: 6
+    - name: "FAQ"
+      url: "/en/faq/"
+      weight: 7
     - name: "Acknowledgments"
       url: "/en/acknowledgments/"
-      weight: 7
+      weight: 8
 
   footer:
     - name: "Home"
@@ -44,9 +47,12 @@ cs:
     - name: "Kontakt"
       url: "/cs/contact/"
       weight: 6
+    - name: "Časté dotazy"
+      url: "/cs/faq/"
+      weight: 7
     - name: "Financování"
       url: "/cs/acknowledgments/"
-      weight: 7
+      weight: 8
 
   footer:
     - name: "Domů"

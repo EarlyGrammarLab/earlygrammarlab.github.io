@@ -15,7 +15,7 @@ My main focus is the language development of preschool and early school-age chil
 
 I also co-lead the development of the child language corpora [*CoCzeFLA*](https://coczefla.ff.cuni.cz/), where I am primarily responsible for coordinating their morphological annotation.
 
-### Selected publications:
+### Selected publications
 
 Matiasovitsová, K., Čechová, P., Sláma, J., Homolková, K., & Smolík, F. (2024). Mean Length of Utterance in Czech Toddlers: Validity Estimates and Comparison of Words, Morphemes, and Syllables. *Journal of Speech, Language, and Hearing Research*, *67*(3), 837-852.
 

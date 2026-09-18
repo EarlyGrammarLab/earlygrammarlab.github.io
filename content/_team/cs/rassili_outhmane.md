@@ -9,7 +9,9 @@ lang: cs
 ---
 *neurovědecký pohled na zpracování jazyka, fonologické a morfologické struktury*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Pracoval jsem jako postdoktorand na [*Ústavu psychologie AV ČR*](https://psu.cas.cz/). Mám magisterský titul v oboru Kognitivní neurověda jazyka z [*Basque Center on Cognition, Brain and Language (BCBL)*](https://www.bcbl.eu/es), kde nyní opět působím, a titul Ph.D. v oboru Kognitivní věda / psycholigvistika z Univerzity Aix-Marseille, kde jsem se v rámci působení v [*Laboratoire Parole et Langage (LPL)*](https://www.lpl-aix.fr/en/welcome-to-lpl/) soustředil na percepci jazyka, fonologii a prozodii.
+
+Jako psycholingvista a fonetik kombinuji behaviorální metody a EEG, abych zkoumal neurální a kognitivní mechanismy zpracovávání jazyka. Můj výzkum se soustředí na otázku, jak fonologické a morfologické struktury formují způsob, jakým je jazyk zpracováván a osvojován, zejména pak s ohledem na jejich roli ve vybavování slov a mentálních reprezentací jazyka.
 
 ### Vybrané publikace
 

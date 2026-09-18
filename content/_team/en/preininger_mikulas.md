@@ -9,7 +9,7 @@ lang: "en"
 ---
 *grammatical gender, word properties*
 
-I am a postdoc at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/), and a junior researcher at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/).
+I was a postdoc at the [*Institute of Psychology, Czech Academy of Sciences*](https://psu.cas.cz/en/), and a junior researcher at the [*Faculty of Arts, Charles University*](https://www.ff.cuni.cz/).
 
 My research in recent years has focused on questions at the intersection of gender and language — for example, when speakers acquire gender as a grammatical category and how it shapes cognitive biases later in life. I have also conducted multiple studies quantifying various properties of words, providing resources that facilitate research on lexical processing and representation in diverse populations.
 

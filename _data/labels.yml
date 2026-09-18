@@ -22,6 +22,12 @@ en:
   group_labels:
     td: "typical development"
     dld: "DLD"
+  database_header: "Participant database"
+  database_buttonblurb: "If you were not able to choose from the list below, but would still be interested in joining one of our experiments (either on your own or with your child), please fill our registration form. We will notify you when a suitable experiment opens."
+  database_button:
+    text: "The form is currently only available in Czech"
+    buttontype: "btn-custom btn-disabled"
+    link: ""
 
 cs:
   categories:
@@ -45,3 +51,9 @@ cs:
   group_labels:
     td: "typický vývoj"
     dld: "vývojová dysfázie"
+  database_header: "Databáze účastníků"
+  database_buttonblurb: "Nevybrali jste si z výčtu níže, ale rádi byste se zúčastnili některé z našich studií (ať už sami, nebo se svým dítětem)? Vyplňte prosím náš kontaktní formulář, abychom si Vás mohli přidat do naší databáze. Ozveme se Vám, jakmile pro Vás budeme mít vhodný experiment."
+  database_button:
+    text: "Chci se registrovat do databáze účastníků"
+    buttontype: "btn-custom btn-primary"
+    link: "https://eaglelab-participants.uklab.cz/"

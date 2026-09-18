@@ -5,11 +5,13 @@ jobtitle: "Postdoktorand"
 promoted: false
 weight: 3
 layout: bio
-lang: cs
+lang: "cs"
 ---
-*gramatický rod, vlastnosti slov*
+*mluvnický rod, vlastnosti slov*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Pracoval jsem jako postdoktorand na [*Psychologickém ústavu AV ČR*](https://psu.cas.cz) a juniorní výzkumník na [*Filozofické fakultě Univerzity Karlovy*](https://www.ff.cuni.cz/).
+
+V posledních letech jsem se zaměřoval na zkoumání otázek rodu a jazyka – například jak si mluvčí osvojují rod jako mluvnickou kategorii a jaká kognitivní zkreslení vyplývající z rodu poté mají v pozdějším životě. Realizoval jsem také několik studií, které se zaměřovaly na kvantifikaci různých vlastností slov. Takové údaje představují zdroj usnadňující další výzkum zpracovávání slov a jejich reprezentací v různorodých populacích.
 
 ### Vybrané publikace
 

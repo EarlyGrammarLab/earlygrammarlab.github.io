@@ -4,6 +4,9 @@ layout: contact
 lang: en
 description: Contact
 ---
+{% assign lang = page.lang | default = 'en' %}
+{% assign labels = site.data.labels[lang] %}
+
 ## Where to find us
 
 Our laboratory is a part of the Prague branch of Institute of Psychology, Czech Academy of Sciences, **temporarily** located at the following address:
@@ -21,6 +24,6 @@ The institute is near the Ládví metro station. Please note that navigation sys
 
 Would you be interested in joining one of our experiments? Please fill our form below, we will notify you when a suitable experiment opens.
 
-<a href="#" class="btn-custom btn-disabled">
-  The form is currently only available in Czech
+<a href="{{ labels.database_button.link }}" class="{{ labels.database_button.buttontype }}">
+	{{ labels.database_button.text }}
 </a>

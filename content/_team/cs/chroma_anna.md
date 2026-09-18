@@ -5,11 +5,13 @@ jobtitle: "Postdoktorand"
 promoted: true
 weight: 3
 layout: bio
-lang: cs
+lang: "cs"
 ---
 *osvojování deixe, korpusy dětského jazyka, morfologie pádů*
 
-Bližší informace jsou dostupné na anglické verzi této stránky.
+Jsem postdoktorandka na [*Filozofické fakultě Univerzity Karlovy*](https://www.ff.cuni.cz/) a [*Psychologickém ústavu AV ČR*](https://psu.cas.cz).
+
+Založila jsem a dále spravuji skupinu [*CoCzeFLA*](https://coczefla.ff.cuni.cz/), která se věnuje vývoji korpusů dětského jazyka. Můj dizertační projekt se týkal osvojování zájmen *já* a *ty* a dalších způsobů, jimiž mluvčí odkazují k sobě a k druhým. V rámci EAGLeLabu studuji rané osvojování české pádové morfologie, mimo jiné ve srovnání s němčinou.
 
 ### Vybrané publikace
 

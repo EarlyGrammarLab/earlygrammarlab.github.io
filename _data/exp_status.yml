@@ -107,8 +107,8 @@ JolcasAdjectiveGender&KlarasVerbNumber_dld:
     en: "czech_only"
     cs: "/assets/pdf/participant_info/Informace_cislo-rod_spojeny.pdf"
   thumbnail:
-    en: null
-    cs: null
+    en: "/images/experiments/Jolca+KlaraET-DLD.webp"
+    cs: "/images/experiments/Jolca+KlaraET-DLD.webp"
   booking_link:
     en: null
     cs: null
